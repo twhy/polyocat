@@ -4,8 +4,6 @@
   let language = 'zh-CN' || navigator.language || navigator.languages[0]
   let dictionary = await translation(language)
 
-  console.log(page, language, dictionary)
-
   translate(document.body)
 
   let observer = new MutationObserver((mutations) => {
@@ -26,14 +24,16 @@
   }
 
   function find(key) {
+    if (page && dictionary[page][key]) return ` ${dictionary[page][key]} `
     if (dictionary.global[key]) return ` ${dictionary.global[key]} `
-    if (dictionary[page][key]) return ` ${dictionary[page][key]} `
   }
   
   function where() {
     let pathname = location.pathname
     if (pathname === '/') return 'homepage'
+    if (pathname === '/new') return 'new'
     if (/^\/[\w\d]+\/?$/.test(pathname)) return 'profile'
+    if (/^\/[\w\d]+\/.+$/.test(pathname)) return 'repository'
   }
   
   function translate(node) {
