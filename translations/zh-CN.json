@@ -1,0 +1,22 @@
+{
+  "profile": {
+    "Overview": "概览",
+    "Repositories": "仓库",
+    "Stars": "点赞",
+    "Followers": "粉丝",
+    "Following": "关注",
+    "Organizations": "组织",
+    "Add a bio": "添加自我介绍",
+    "Popular repositories": "受欢迎的仓库",
+    "Customize pinned repositories": "自定义展示的仓库",
+    "Customize your pinned repositories": "自定义展示的仓库"
+  },
+  "global": {
+    "Follow": "关注",
+    "Unfollow": "取关",
+    "Star": "点赞",
+    "Unstar": "消赞",
+    "Search repositories…": "搜索仓库 ...",
+    "Search starred repositories…": "搜索点赞的仓库 ..."
+  }
+}
