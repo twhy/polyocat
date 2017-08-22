@@ -4,6 +4,8 @@
   let language = 'zh-CN' || navigator.language || navigator.languages[0]
   let dictionary = await translation(language)
 
+  console.log(page, language, dictionary)
+
   translate(document.body)
 
   let observer = new MutationObserver((mutations) => {
@@ -29,7 +31,9 @@
   }
   
   function where() {
-    if (/^\/[\w\d]+\/?$/.test(location.pathname)) return 'profile'
+    let pathname = location.pathname
+    if (pathname === '/') return 'homepage'
+    if (/^\/[\w\d]+\/?$/.test(pathname)) return 'profile'
   }
   
   function translate(node) {
@@ -56,6 +60,10 @@
     if (elem.tagName === 'INPUT' && elem.placeholder) {
       let placeholder = find(elem.placeholder)
       if (placeholder) elem.placeholder = placeholder
+    }
+    if (elem.hasAttribute('aria-label')) {
+      let label = find(elem.getAttribute('aria-label'))
+      if (label) elem.setAttribute('aria-label', label)
     }
     
     translate(elem)
