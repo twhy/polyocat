@@ -75,7 +75,7 @@ async function main() {
     }
     if ((elem.tagName === 'RELATIVE-TIME' || elem.tagName === 'TIME-AGO') && elem.innerText) {
       elem.innerText = elem.innerText.replace(
-        /(\d+|a|an) (month|months|day|days|hour|hours|minute|minutes) (ago)/,
+        /(\d+|a|an) (month|months|day|days|hour|hours|minute|minutes|second|seconds) (ago)/,
         (match, p1, p2, p3) => `${find(p1) || p1} ${find(p2).trim()}${find(p3).trim()}`
       )
     }
