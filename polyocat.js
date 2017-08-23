@@ -1,5 +1,6 @@
+main()
+
 async function main() {
-  
   let page = where()
   let language = 'zh-CN' || navigator.language || navigator.languages[0]
   let dictionary = await translation(language)
@@ -8,7 +9,7 @@ async function main() {
 
   translate(document.body)
 
-  let observer = new MutationObserver((mutations) => {
+  let observer = new MutationObserver(mutations => {
     mutations
       .filter(mutation => mutation.type === 'childList' && mutation.addedNodes.length)
       .forEach(mutation => mutation.addedNodes.forEach(translate))
@@ -23,13 +24,13 @@ async function main() {
     childList: true,
     subtree: true
   })
-  
+
   async function translation(lang) {
     let url = chrome.extension.getURL(`translations/${lang}.json`)
     let res = await fetch(url)
     return await res.json()
   }
-
+  
   function find(key) {
     if (page && dictionary[page][key]) return ` ${dictionary[page][key]} `
     if (dictionary.global[key]) return ` ${dictionary.global[key]} `
@@ -50,7 +51,7 @@ async function main() {
     translateNode(node)
     node.childNodes.forEach(translate)
   }
-
+  
   function translateNode(node) {
     switch (true) {
       case node.nodeType === Node.ELEMENT_NODE:
@@ -86,7 +87,4 @@ async function main() {
       node.nodeValue = tran
     }
   }
-
 }
-
-main()
