@@ -3,6 +3,10 @@
   "name": "Polyocat",
   "version": "0.0.0.1",
   "description": "Github in your language",
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
