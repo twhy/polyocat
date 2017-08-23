@@ -73,6 +73,12 @@ async function main() {
       let value = find(elem.value)
       if (value) elem.value = value
     }
+    if (elem.tagName === 'RELATIVE-TIME' && elem.innerText) {
+      elem.innerText = elem.innerText.replace(
+        /(\d+|a|an) (day|days|hour|hours|minute|minutes) (ago)/,
+        (match, p1, p2, p3) => `${find(p1) || p1} ${find(p2).trim()}${find(p3).trim()}`
+      )
+    }
     if (elem.hasAttribute('aria-label')) {
       let label = find(elem.getAttribute('aria-label'))
       if (label) elem.setAttribute('aria-label', label)

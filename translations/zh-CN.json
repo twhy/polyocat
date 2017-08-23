@@ -470,7 +470,17 @@
     "Unwatch": "取消关注",
     "Watching": "关注",
 
+    "a": "1",
+    "an": "1",
     "or": "或",
+    "ago": "前",
+    "day": "天",
+    "days": "天",
+    "hour": "小时",
+    "hours": "小时",
+    "minute": "分钟",
+    "minutes": "分钟",
+
     "Fork": "分岔",
     "More": "更多",
     "Save": "保存",
