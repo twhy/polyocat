@@ -303,6 +303,7 @@
     "Import code": "导入代码",
     
     "Edit": "编辑",
+    "Done": "完成",
     "Cancel": "取消",
     "Website": "网站",
     "Website for this repository (optional)": "此仓库的网站 (可选)",
@@ -311,7 +312,7 @@
 
     "Notifications": "通知",
     "Watch": "关注",
-    "Watching": "关注ing",
+    "Watching": "关注中",
     "Not watching": "不关注",
     "Be notified when participating or @mentioned.": "仅在参与对话或被 @ 时进行通知",
     "Be notified of all conversations.": "所有对话都进行通知",
@@ -346,6 +347,12 @@
     "Upload files": "上传文件",
     "Find file": "查找文件",
     "Copy path": "复制路径",
+    "Raw": "原始",
+    "Blame": "追责",
+    "History": "历史",
+    "Open this file in GitHub Desktop": "使用 GitHub 桌面版打开此文件",
+    "Fork this project and edit the file": "分岔此项目并修改此文件",
+    "Fork this project and delete the file": "分岔此项目并删除此文件",
     "Copy file path to clipboard": "复制文件路径到剪切板",
     "Edit new file": "编辑新文件",
     "Commit new file": "提交新文件",
@@ -511,6 +518,8 @@
     "seconds": "秒",
     "month": "个月",
     "months": "个月",
+    "year": "年",
+    "years": "年",
 
     "Fork": "分岔",
     "More": "更多",
@@ -564,6 +573,9 @@
 
     "cancel": "取消",
     "Rename": "重命名",
+
+    "People": "人们",
+    "Community": "社区",
     
     "Search": "搜索",
     "Search GitHub": "搜索 Github",

@@ -49,9 +49,8 @@ async function main() {
   
   function translate(node) {
     translateNode(node)
-    if (node.id === 'readme' ||
-        node.id === 'files'  ||
-        node.className === 'file') return
+    if (node.id === 'readme' || node.id === 'files') return
+    if (node.className === 'file') return translate(node.firstElementChild)
     node.childNodes.forEach(translate)
   }
   
@@ -71,7 +70,7 @@ async function main() {
     }
     if ((elem.tagName === 'RELATIVE-TIME' || elem.tagName === 'TIME-AGO') && elem.innerText) {
       elem.innerText = elem.innerText.replace(
-        /(\d+|a|an) (month|months|day|days|hour|hours|minute|minutes|second|seconds) (ago)/,
+        /(\d+|a|an) (day|days|hour|hours|minute|minutes|second|seconds|month|months|year|years) (ago)/,
         (match, p1, p2, p3) => `${find(p1) || p1} ${find(p2).trim()}${find(p3).trim()}`
       )
     }
