@@ -12,8 +12,10 @@
     "Block or report user": "屏蔽或举报用户",
     "Show more activity": "展示更多",
     "Popular repositories": "受欢迎的仓库",
-    "Pinned repositories": "",
+    "Pinned repositories": "置顶的仓库",
 
+    "Type:": "类型",
+    "All": "全部",
     "Language:": "语言:",
     "All languages": "所有语言",
     "Select language:": "选择语言",
@@ -36,7 +38,10 @@
     "First pull request": "第一次合并请求",
     "First issue": "第一个问题",
     "First repository": "第一个仓库",
-    "Joined GitHub": "加入 GitHub"
+    "Joined GitHub": "加入 GitHub",
+
+    "This organization": "此组织",
+    "Report abuse": "举报滥用"
   },
 
   "new": {
@@ -208,6 +213,7 @@
     "Blocked users": "屏蔽用户",
     "Block user": "屏蔽用户",
     "Block a user": "屏蔽一个用户",
+    "You have not blocked any users.": "你没有屏蔽任何用户。",
 
     "Two-factor authentication": "双重身份验证",
     "Set up two-factor authentication": "设置双重身份验证",
@@ -586,7 +592,10 @@
     "cancel": "取消",
     "Rename": "重命名",
 
+    "New": "新建",
+    "Teams": "团队",
     "People": "人们",
+    "Projects": "项目",
     "Community": "社区",
 
     "Sign in": "登录",

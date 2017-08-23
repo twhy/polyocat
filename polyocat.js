@@ -2,7 +2,7 @@ main()
 
 async function main() {
   let page = where()
-  let language = 'zh-CN' || navigator.language || navigator.languages[0]
+  let language = localStorage.getItem('polyocat-lang') || navigator.language || navigator.languages[0]
   let dictionary = await translation(language)
 
   console.log(page, language, dictionary)
