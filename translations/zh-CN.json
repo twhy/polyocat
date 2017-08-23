@@ -385,6 +385,7 @@
     "Older": "旧的",
 
     "This Repository doesn't have any projects yet": "此仓库目前没有任何项目",
+    "You don't have permission to create new projects in this repository": "你没有权限在这个仓库创建项目",
     "Create a project": "创建一个项目",
     "Create a new project": "创建一个新项目",
     "Name": "名称",
