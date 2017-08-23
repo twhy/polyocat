@@ -133,7 +133,6 @@
     "Contributions": "贡献",
     "Include private contributions on my profile": "在我的主页显示对私有项目的贡献",
     "Get credit for all your work by showing the number of contributions to private repositories on your profile without any repository or organization information.": "展示你对私有项目的贡献次数以获得赞誉的同时不泄露任何私有仓库和组织的信息。",
-    "Learn how we count contributions": "了解我们如何统计贡献",
     "Building an application, service, or tool that integrates with GitHub?": "正在构建一个与 Github 集成的应用程序、服务或工具吗？",
     "Join the GitHub Developer Program": "加入 GitHub 开发者计划",
     ", or read more about it at our": "或了解更多相关信息，就在我们的",
@@ -362,6 +361,11 @@
     "Edit new file": "编辑新文件",
     "Commit new file": "提交新文件",
     "Name your file…": "给文件命名 …",
+    "Edit file": "编辑文件",
+    "Edit this file": "编辑此文件",
+    "Delete this file": "删除此文件",
+    "Preview changes": "预览改动",
+    "Commit changes": "提交改动",
     
     "Find a tag…": "查找标签 …",
     "Find or create a branch…": "查找或创建分支 …",
@@ -540,6 +544,7 @@
     "Pricing": "定价",
 
     "You have no unread notifications": "你没有未读的通知",
+    "Learn how we count contributions": "了解我们如何统计贡献",
 
     "Create new…": "新建 …",
     "New repository": "新建仓库",
