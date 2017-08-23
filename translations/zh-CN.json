@@ -332,6 +332,8 @@
     "releases": "次发布",
     "contributor": "个贡献者",
     "contributors": "个贡献者",
+    "Contributors": "贡献者",
+    "Contributions:": "贡献:",
 
     "Tags": "标签",
     "Branches": "分支",
@@ -346,6 +348,7 @@
     "Copy path": "复制路径",
     "Copy file path to clipboard": "复制文件路径到剪切板",
     "Find a tag…": "查找标签 …",
+    "Find or create a branch…": "查找或创建分支 …",
     "Filter branches/tags": "筛选分支 / 标签",
     "Switch branches/tags": "切换分支 / 标签",
     "Clone or download": "克隆 / 下载",
@@ -359,6 +362,11 @@
     "Use Git or checkout with SVN using the web URL.": "使用 Git 或 SVN 检出该仓库。",
 
     "Latest commit": "最近一次提交",
+    "Copy the full SHA": "复制完整的 SHA",
+    "Browse the repository at this point in the history": "浏览该时刻的仓库内容",
+
+    "Newer": "新的",
+    "Older": "旧的",
 
     "This Repository doesn't have any projects yet": "此仓库目前没有任何项目",
     "Create a project": "创建一个项目",
@@ -415,6 +423,11 @@
 
     "Collaborators": "合作者",
     "Collaborators & teams": "合作者与团队",
+    "Default branch": "默认分支",
+    "Update": "更新",
+    "Filter branches": "筛选分支",
+    "Switch default branch": "切换默认分支",
+
     "Webhooks": "Web 钩子",
 
     "Integrations & services": "集成及服务",
@@ -480,6 +493,8 @@
     "hours": "小时",
     "minute": "分钟",
     "minutes": "分钟",
+    "month": "个月",
+    "months": "个月",
 
     "Fork": "分岔",
     "More": "更多",
@@ -498,16 +513,16 @@
     "Create new…": "新建 …",
     "New repository": "新建仓库",
     "Import repository": "导入仓库",
-    "New gist": "新建小抄",
+    "New gist": "新建片段",
     "New organization": "新建组织",
     "This repository": "此仓库",
     "New issue": "新建问题",
 
     "View profile and more": "查看主页及更多操作",
     "Signed in as": "用户",
-    "Your profile": "主页",
-    "Your stars": "点赞",
-    "Your Gists": "小抄",
+    "Your profile": "个人主页",
+    "Your stars": "点赞仓库",
+    "Your Gists": "代码片段",
     "Explore": "探索 Github",
     "Explore GitHub": "探索 Github",
     "Help": "帮助",

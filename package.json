@@ -1,0 +1,26 @@
+{
+  "name": "polyocat",
+  "version": "0.0.1",
+  "description": "GitHub in your language",
+  "main": "polyocat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhy/polyocat.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Tom Wang",
+    "email": "tom.wanghaiyi@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twhy/polyocat/issues"
+  },
+  "homepage": "https://github.com/twhy/polyocat#readme",
+  "devDependencies": {
+    "crx": "^3.2.1"
+  }
+}

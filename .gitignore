@@ -1,0 +1,4 @@
+*.pem
+*.crx
+
+node_modules
