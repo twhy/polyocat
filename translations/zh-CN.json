@@ -291,6 +291,11 @@
     "Pulse": "统计",
     "Graphs": "图表",
 
+    "Topics": "主题",
+    "Add topics": "添加主题",
+    "(separate with spaces)": "以空格分隔",
+    "Add topics to categorize your repository and make it more discoverable.": "给仓库添加主题并分类，让它更易被发现",
+
     "Quick setup": "快速设置",
     "— if you’ve done this kind of thing before": "- 如果你已有类似经验",
     "Set up in Desktop": "安装到桌面",
