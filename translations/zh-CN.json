@@ -292,6 +292,7 @@
 
     "Topics": "主题",
     "Add topics": "添加主题",
+    "Manage topics": "管理主题",
     "(separate with spaces)": "以空格分隔",
     "Add topics to categorize your repository and make it more discoverable.": "给仓库添加主题并分类，让它更易被发现",
 
@@ -587,6 +588,26 @@
 
     "People": "人们",
     "Community": "社区",
+
+    "Sign in": "登录",
+    "Sign up": "注册",
+
+    "Username": "用户名",
+    "Pick a username": "选择一个用户名",
+    "Email": "邮箱",
+    "Your email address": "你的邮件地址",
+    "Password": "密码",
+    "Create a password": "创建一个密码",
+    "Sign up for GitHub": "注册 GitHub",
+    "Use at least one letter, one numeral, and seven characters.": "最少包含一个字母和数字，且在 7 位以上。",
+    "By clicking \"Sign up for GitHub\", you agree to our": "点击 “注册 GitHub”，表示你同意我们的",
+    "terms of service": "服务条款",
+    "and": "和",
+    "privacy policy": "隐私政策条款",
+    "We’ll occasionally send you account related emails.": "我们会偶尔给你发送帐户相关的电子邮件。",
+
+    "Features": "特性",
+    "Business": "商用",
     
     "Search": "搜索",
     "Search GitHub": "搜索 Github",
