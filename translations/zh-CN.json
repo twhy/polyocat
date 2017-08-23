@@ -161,7 +161,7 @@
 
     "Your account is currently an owner in these organizations:": "你的账户目前是这些组织的所有者",
     "You must": "你必须",
-    "transfer ownership": "转移所有权",
+    "transfer ownership": "转让所有权",
     "or": "或",
     "delete": "删除",
     "these organizations before you can delete your user.": "这些组织后才能删除你的账户",
@@ -347,6 +347,10 @@
     "Find file": "查找文件",
     "Copy path": "复制路径",
     "Copy file path to clipboard": "复制文件路径到剪切板",
+    "Edit new file": "编辑新文件",
+    "Commit new file": "提交新文件",
+    "Name your file…": "给文件命名 …",
+    
     "Find a tag…": "查找标签 …",
     "Find or create a branch…": "查找或创建分支 …",
     "Filter branches/tags": "筛选分支 / 标签",
@@ -403,6 +407,7 @@
     "Select a theme to build your site with a Jekyll theme": "选择一个 Jekyll 主题构建你的网页，",
     "using the": "基于",
     "master branch": "master 分支",
+    ".": "。",
     "gh-pages branch": "gh-pages 分支",
     "Choose a theme": "选择主题",
     "Custom domain": "自定义域名",
@@ -547,6 +552,7 @@
     "Previous": "上一页",
     "Next": "下一页",
 
+    "cancel": "取消",
     "Rename": "重命名",
     
     "Search": "搜索",

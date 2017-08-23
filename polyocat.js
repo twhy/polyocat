@@ -34,6 +34,7 @@ async function main() {
   function find(key) {
     if (page && dictionary[page][key]) return ` ${dictionary[page][key]} `
     if (dictionary.global[key]) return ` ${dictionary.global[key]} `
+    return ''
   }
   
   function where() {
@@ -49,22 +50,18 @@ async function main() {
   
   function translate(node) {
     translateNode(node)
+    if (node.id === 'readme' ||
+        node.id === 'files'  ||
+        node.className === 'file') return
     node.childNodes.forEach(translate)
   }
   
   function translateNode(node) {
-    switch (true) {
-      case node.nodeType === Node.ELEMENT_NODE:
-        translateElement(node)
-        break
-      case node.nodeType === Node.TEXT_NODE:
-        translateTextNode(node)
-        break
-    }
+    if (node.nodeType === Node.TEXT_NODE) translateTextNode(node)
+    if (node.nodeType === Node.ELEMENT_NODE) translateElement(node)
   }
   
   function translateElement(elem) {
-    if (elem.id === 'readme') return
     if ((elem.tagName === 'INPUT' || elem.tagName === 'TEXTAREA') && elem.placeholder) {
       let placeholder = find(elem.placeholder)
       if (placeholder) elem.placeholder = placeholder
