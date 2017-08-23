@@ -394,6 +394,8 @@
     "Your GitHub Pages site is currently being built from the": "你当前的 Github 项目页面网站是基于",
     "branch.": "分支。",
     "GitHub Pages is currently disabled. Select a source below to enable GitHub Pages for this repository.": "GitHub 项目页面未启用。选择一个源为这个仓库启用 Github 项目页面。",
+    "GitHub Pages is currently disabled. You must first add content to your repository before you can publish a GitHub Pages site.": "",
+
     "Learn more": "了解更多",
     "Select source": "选择源",
     "None": "无",
@@ -424,6 +426,14 @@
     "Transfer this repository to another user or to an organization where you have the ability to create repositories.": "转让此仓库给另一个用户或一个你拥有创建仓库权限的组织。",
     "Delete this repository": "删除此仓库",
     "Once you delete a repository, there is no going back. Please be certain.": "一旦你删除某个仓库，将无法找回。请三思。",
+    "Are you ABSOLUTELY sure?": "你已经非常确定了吗？",
+    "Unexpected bad things will happen if you don’t read this!": "请仔细阅读以下提示信息!",
+    "This action": "该操作",
+    "CANNOT": "不能",
+    "be undone. This will permanently delete the": "撤销。这将永久地删除",
+    "repository, wiki, issues, and comments, and remove all collaborator associations.": "仓库，wiki，问题列表和评论，并且移除所有合作者。",
+    "Please type in the name of the repository to confirm.": "请输入此仓库名以确认删除它。",
+    "I understand the consequences, delete this repository": "我明白这样做的后果，删除仓库",
 
     "Collaborators": "合作者",
     "Collaborators & teams": "合作者与团队",
