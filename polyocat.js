@@ -11,11 +11,10 @@ async function main() {
 
   let observer = new MutationObserver(mutations => {
     mutations
-      .filter(mutation => mutation.type === 'childList' && mutation.addedNodes.length)
-      .forEach(mutation => mutation.addedNodes.forEach(translate))
-
-    mutations
-      .filter(mutation => mutation.type === 'attributes' && mutation.attributeName === 'placeholder')
+      .filter(mutation =>
+        (mutation.type === 'childList' && mutation.addedNodes.length) ||
+        (mutation.type === 'attributes' && mutation.attributeName === 'placeholder')
+      )
       .forEach(mutation => translate(mutation.target))
   })
 
