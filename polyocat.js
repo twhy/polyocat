@@ -2,12 +2,12 @@ main()
 
 async function main() {
   let page = where()
-  let language = localStorage.getItem('polyocat-lang') || navigator.language || navigator.languages[0]
-  let dictionary = await translation(language)
-
-  console.log(page, language, dictionary)
+  let lang = language()
+  let dict = await translation(lang)
 
   translate(document.body)
+
+  console.log(page, lang, dict)
 
   let observer = new MutationObserver(mutations => {
     mutations
@@ -23,16 +23,10 @@ async function main() {
     childList: true,
     subtree: true
   })
-
-  async function translation(lang) {
-    let url = chrome.extension.getURL(`translations/${lang}.json`)
-    let res = await fetch(url)
-    return await res.json()
-  }
   
   function find(key) {
-    if (page && dictionary[page][key]) return ` ${dictionary[page][key]} `
-    if (dictionary.global[key]) return ` ${dictionary.global[key]} `
+    if (page && dict[page][key]) return ` ${dict[page][key]} `
+    if (dict.global[key]) return ` ${dict.global[key]} `
     return ''
   }
   
@@ -45,6 +39,16 @@ async function main() {
     if (/\/settings\/.+$/.test(pathname)) return 'settings'
     if (/^\/\w+\/?$/.test(pathname)) return 'profile'
     if (/^\/\w+\/.+$/.test(pathname)) return 'repository'
+  }
+
+  function language() {
+    return localStorage.getItem('polyocat-lang') || navigator.language || navigator.languages[0]
+  }
+
+  async function translation(lang) {
+    let url = chrome.extension.getURL(`translations/${lang}.json`)
+    let res = await fetch(url)
+    return await res.json()
   }
   
   function translate(node) {
