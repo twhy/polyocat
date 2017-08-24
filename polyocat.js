@@ -38,7 +38,7 @@ async function main() {
   
   function where() {
     let pathname = location.pathname
-    if (pathname === '/') return 'homepage'
+    if (pathname === '/' || pathname === '/dashboard') return 'homepage'
     if (pathname === '/new') return 'new'
     if (/^\/watching/.test(pathname)) return 'watching'
     if (/^\/notifications/.test(pathname)) return 'notifications'
