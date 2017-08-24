@@ -388,12 +388,21 @@
     "Use an SSH key and passphrase from account.": "使用 SSH 密钥和密码",
     "Use Git or checkout with SVN using the web URL.": "使用 Git 或 SVN 检出该仓库。",
 
+
     "Latest commit": "最近一次提交",
     "Copy the full SHA": "复制完整的 SHA",
     "Browse the repository at this point in the history": "浏览该时刻的仓库内容",
 
+    "Commit directly to the": "直接提交到",
+    "Add an optional extended description…": "添加一段可选的描述 …",
+    "Create a": "创建一个",
+    "new branch": "新分支",
+    "for this commit and start a pull request.": "进行提交并发起合并请求",
+    "Learn more about pull requests.": "了解更多关于合并请求的信息",
+
     "Newer": "新的",
     "Older": "旧的",
+
 
     "This Repository doesn't have any projects yet": "此仓库目前没有任何项目",
     "You don't have permission to create new projects in this repository": "你没有权限在这个仓库创建项目",
