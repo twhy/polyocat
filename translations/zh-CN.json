@@ -430,7 +430,9 @@
     "GitHub Pages is currently disabled. Select a source below to enable GitHub Pages for this repository.": "GitHub 项目页面未启用。选择一个源为这个仓库启用 GitHub 项目页面。",
     "GitHub Pages is currently disabled. You must first add content to your repository before you can publish a GitHub Pages site.": "",
 
-    "Learn more": "了解更多",
+    "Temporary interaction limits": "临时访问限制",
+
+    "Learn more": "了解详情",
     "Select source": "选择源",
     "None": "无",
     "Disable GitHub Pages.": "关闭 GitHub 项目页面",
@@ -440,13 +442,15 @@
     "Use only the": "仅将",
     "folder for GitHub Pages.": "目录用于 GitHub 项目页面",
     "Theme Chooser": "主题选择器",
-    "Select a theme to build your site with a Jekyll theme": "选择一个 Jekyll 主题构建你的网页，",
+    "Select a theme to build your site with a Jekyll theme": "选择一个 Jekyll 主题构建你的网页",
     "using the": "基于",
     "master branch": "master 分支",
     ".": "。",
     "gh-pages branch": "gh-pages 分支",
     "Choose a theme": "选择主题",
     "Custom domain": "自定义域名",
+    "Custom domains allow you to serve your site from a domain other than": "自定义域名令你可以通过其他域名访问该网站而不仅仅是",
+
 
     "Merge button": "合并按钮",
     
