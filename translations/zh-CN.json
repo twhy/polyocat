@@ -411,6 +411,8 @@
     "Create a new project": "创建一个新项目",
     "Name": "名称",
     "Save project": "保存项目",
+    
+    "There aren’t any open pull requests.": "暂无合并请求。",
 
     "Options": "选项",
     "Repository name": "仓库名",
@@ -464,7 +466,7 @@
     "Transfer this repository to another user or to an organization where you have the ability to create repositories.": "转让此仓库给另一个用户或一个你拥有创建仓库权限的组织。",
     "Delete this repository": "删除此仓库",
     "Once you delete a repository, there is no going back. Please be certain.": "一旦你删除某个仓库，将无法找回。请三思。",
-    "Are you ABSOLUTELY sure?": "你已经非常确定了吗？",
+    "Are you ABSOLUTELY sure?": "你绝对确定？",
     "Unexpected bad things will happen if you don’t read this!": "请仔细阅读以下提示信息!",
     "This action": "该操作",
     "CANNOT": "不能",
