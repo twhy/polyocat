@@ -73,7 +73,7 @@
     "Public": "公开",
     "Private": "私有",
     "Sources": "源库",
-    "Forks": "分岔",
+    "Forks": "派生",
 
     "Switch dashboard context": "切换角色",
     "Create organization": "创建组织",
@@ -87,7 +87,7 @@
 
     "to": "到",
     "added": "加",
-    "forked": "分岔",
+    "forked": "派生",
     "created repository": "新建仓库"
   },
 
@@ -362,7 +362,7 @@
     "Blame": "追责",
     "History": "历史",
     "Open this file in GitHub Desktop": "使用 GitHub 桌面版打开此文件",
-    "Fork this project and edit the file": "分岔此项目并修改此文件",
+    "Fork this project and edit the file": "此项目并修改此文件",
     "Fork this project and delete the file": "分岔此项目并删除此文件",
     "Copy file path to clipboard": "复制文件路径到剪切板",
     "Edit new file": "编辑新文件",
@@ -553,7 +553,7 @@
     "years": "年",
     "just now": "刚刚",
 
-    "Fork": "分岔",
+    "Fork": "派生",
     "More": "更多",
     "Save": "保存",
     "Description": "描述",
