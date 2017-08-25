@@ -28,7 +28,7 @@
 
     "Top languages": "最常用语言",
     "Invite someone": "邀请用户",
-
+    
     "Customize pinned repositories": "自定义展示的仓库",
     "Customize your pinned repositories": "自定义展示的仓库",
     "Your pinned repositories have been updated. Drag and drop to reorder them.": "置顶仓库已更新，你可以拖放它们进行排序。",
@@ -39,6 +39,7 @@
     "Your repositories": "你的仓库",
     "Filter repositories": "筛选仓库",
     "Repositories you contribute to": "你贡献过的仓库",
+    "Order updated.": "已更新顺序。",
 
     "No contributions": "无贡献",
     "Contribution settings": "贡献设置",
