@@ -3,7 +3,7 @@
 GitHub in your language. Inspired by [52cik/github-hans](https://github.com/52cik/github-hans) 👏👏👏
 
 ## Install
-https://chrome.google.com/webstore/detail/polyocat/jjamhgimnhgaiijidhlhnoeefdmhjbgd
+[Polyocat in Chrome Web Store](https://chrome.google.com/webstore/detail/polyocat/jjamhgimnhgaiijidhlhnoeefdmhjbgd)
 
 ## Add your language(s)
 Simply add a `ab-XY.json`(e.g. `fr-FR` for French France) file under `translations` folder. The extension will load the corresponding translation file based on browser language.
