@@ -765,6 +765,15 @@
     "privacy policy": "隐私政策条款",
     "We’ll occasionally send you account related emails.": "我们会偶尔给你发送帐户相关的电子邮件。",
 
+    "Confirm password to continue": "确认密码后才能继续操作",
+    "(Forgot password)": "(忘记密码)",
+    "Confirm password": "确认密码",
+
+    "Tip:": "提示:",
+    "You are entering": "你正进入",
+    "sudo mode": "sudo 模式",
+    ". We won’t ask for your password again for a few hours.": "。我们在接下来的几个小时内不会再向你询问密码。",
+
     "Features": "特性",
     "Business": "商用",
     "Platform": "平台",
@@ -787,6 +796,9 @@
     "Project": "项目",
     "management": "管理",
     "Integrations": "集成",
+    "Services": "服务",
+    "Add service": "添加服务",
+    "Available Services": "可用服务",
 
     "Trending": "热门",
     "Trending:": "热门",
@@ -811,6 +823,7 @@
     "Text editors": "文本编辑器",
     "Trending repositories": "热门仓库",
     "Starred by people you follow": "被你关注的人点赞",
+
 
     "Search": "搜索",
     "Search GitHub": "搜索 GitHub",
