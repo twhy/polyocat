@@ -196,6 +196,8 @@
     "Add": "添加",
     "Primary email address": "主要邮箱",
     "Backup email address": "备用邮箱",
+    "Email preferences": "邮件偏好",
+    "Save email preferences": "保存邮件偏好",
 
     "Notifications": "通知设置",
 
@@ -758,6 +760,7 @@
     "None yet": "暂无",
     "Unsubscribe": "退订",
     "Options": "选项",
+    "Resend": "重新发送",
 
     "Sign in": "登录",
     "Sign up": "注册",
@@ -799,7 +802,7 @@
     "Welcome to GitHub": "欢迎来到 GitHub",
     "You’ve taken your first step into a larger world,": "你已经迈出了第一步进入到更大的世界，",
     "Choose your personal plan": "选择你的个人方案",
-    "Unlimited public repositories for free.": "无限的公开仓库免费使用",
+    "Unlimited public repositories for free.": "无限的公开仓库 免费",
     "Unlimited private repositories": "无限的私人仓库",
     "for": "需",
     "$7/month.": "$7/月",
@@ -825,14 +828,19 @@
     "Country": "国家",
     "Choose country": "选择国家",
     "Postal Code": "邮编",
+    "Creating account…": "创建账户 …",
     "Finish sign up": "完成注册",
     "Please verify your email address": "请验证你的邮箱",
+    "Please verify an email address": "请验证一个邮箱",
+    "to collaborate on GitHub, receive notifications, and help us protect your account.": "用于在 GitHub 上进行协作，接收通知，并帮助我们保护你的账户。",
+    "Account successfully deleted.": "成功删除账户。",
 
-    "Both plans include:": "这两种方案包括：",
+    "Both plans include:": "两种方案均包括：",
     "Collaborative code review": "协作代码审查",
     "Issue tracking": "问题跟踪",
     "Unlimited public repositories": "无限的公开仓库",
     "Join any organization": "加入任何组织",
+    "Verification email sent.": "验证邮件已发送。",
 
     "Username": "用户名",
     "Pick a username": "选择一个用户名",
