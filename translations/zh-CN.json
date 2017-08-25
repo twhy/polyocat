@@ -701,6 +701,7 @@
     "merged": "合并",
     "cancel": "取消",
     "Rename": "重命名",
+    "Updated": "更新",
 
     "New": "新建",
     "Teams": "团队",
@@ -774,6 +775,7 @@
     "N contributions in the last year": "$1 个贡献发生在过去的一年中",
 
     "month day": "$1 月 $2 日",
-    "on date": " 于 $3 年 $1 月 $2 日"
+    "on month day": "于 $1 月 $2 日",
+    "on month day, year": " 于 $3 年 $1 月 $2 日"
   }
 }
