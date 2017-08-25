@@ -1,5 +1,3 @@
-main()
-
 async function main() {
 
   const REGEXP = {
@@ -10,10 +8,6 @@ async function main() {
   let page = where()
   let lang = language()
   let dict = await translation(lang)
-
-  translate(document.body)
-
-  console.log(page, lang, dict)
 
   let observer = new MutationObserver(mutations => {
     mutations
@@ -29,6 +23,8 @@ async function main() {
     childList: true,
     subtree: true
   })
+
+  translate(document.body)
   
   function find(str) {
     if (page && dict[page][str]) return ` ${dict[page][str]} `
@@ -104,4 +100,8 @@ async function main() {
       node.nodeValue = tran
     }
   }
+
+  console.log(page, lang, dict)
 }
+
+main()
