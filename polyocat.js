@@ -1,6 +1,12 @@
 main()
 
 async function main() {
+
+  const REGEXP = {
+    "N open": /([\d,]+) Open/,
+    "N closed": /([\d,]+) Closed/
+  }
+
   let page = where()
   let lang = language()
   let dict = await translation(lang)
@@ -24,9 +30,15 @@ async function main() {
     subtree: true
   })
   
-  function find(key) {
-    if (page && dict[page][key]) return ` ${dict[page][key]} `
-    if (dict.global[key]) return ` ${dict.global[key]} `
+  function find(str) {
+    if (page && dict[page][str]) return ` ${dict[page][str]} `
+    if (dict.global[str]) return ` ${dict.global[str]} `
+    for (let key in REGEXP) {
+      let reg = REGEXP[key]
+      if (reg.test(str)) {
+        return str.replace(reg, dict.regexp[key])
+      }
+    }
     return ''
   }
   

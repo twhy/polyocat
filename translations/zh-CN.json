@@ -376,6 +376,7 @@
     "New pull request": "新建合并请求",
     "Nothing to show": "暂无",
 
+    "Assignee": "受理人",
     "Assignees": "受理人",
     "No one assigned": "暂无受理人",
     "Add your reaction": "添加表情",
@@ -736,5 +737,9 @@
     "Search GitHub": "搜索 GitHub",
     "Search repositories…": "搜索仓库 …",
     "Search starred repositories…": "搜索点赞的仓库 …"
+  },
+  "regexp": {
+    "N open": "$1 个打开的",
+    "N closed": "$1 个关闭的"
   }
 }
