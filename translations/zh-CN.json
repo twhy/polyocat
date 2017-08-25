@@ -532,13 +532,21 @@
     "Collaborators": "合作者",
     "Collaborators & teams": "合作者与团队",
     "Default branch": "默认分支",
+    "Protected branches": "受保护分支",
+    "No protected branches yet.": "暂无受保护的分支。",
+    "Choose a branch...": "选择一个分支 …",
     "Update": "更新",
     "Filter branches": "筛选分支",
     "Switch default branch": "切换默认分支",
 
-    "Webhooks": "Web 钩子",
+    "New collaborator": "添加合作者",
+    "Push access to the repository": "拥有仓库的推送权限",
+    "This repository doesn’t have any collaborators yet. Use the form below to add a collaborator.": "当前仓库还没有任何合作者，你可以在通过以下表单添加合作者。",
+    "You'll only be able to find a GitHub user by their email address if they've chosen to list it publicly. Otherwise, use their username instead.": "只有当某个用户公开他/她的邮箱时你才能搜索到，否则请搜索他/她的用户名。",
+    "Search by username, full name or email address": "按用户名, 名字, 邮箱地址进行搜索",
+    "Add collaborator": "添加合作者",
 
-    "Integrations & services": "集成及服务",
+    "Integrations & services": "集成服务",
 
     "Deploy keys": "部署密钥",
     "Add deploy key": "新增部署密钥",
@@ -642,6 +650,7 @@
     "forked from": "派生自",
     "More": "更多",
     "Learn more": "了解详情",
+    "Learn more.": "了解详情",
     "View all": "查看全部",
 
     "Repositories": "仓库",
@@ -741,6 +750,7 @@
     "Sort": "排序",
     "None yet": "暂无",
     "Unsubscribe": "退订",
+    "Options": "选项",
 
     "Sign in": "登录",
     "Sign up": "注册",
