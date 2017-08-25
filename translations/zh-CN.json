@@ -32,6 +32,7 @@
     "Customize pinned repositories": "自定义展示的仓库",
     "Customize your pinned repositories": "自定义展示的仓库",
     "Your pinned repositories have been updated. Drag and drop to reorder them.": "置顶仓库已更新，你可以拖放它们进行排序。",
+    "Your popular repositories will now be shown instead of your pinned repositories.": "你受欢迎的仓库现被展示而不是置顶的仓库。",
     "Save pinned repositories": "保存置顶仓库",
     "Select up to six public repositories you'd like to show.": "选择多至 6 个公开仓库用作展示",
     "You can now pin up to 6 repositories.": "你现在可最多将 6 个仓库置顶。",
