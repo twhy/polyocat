@@ -69,7 +69,7 @@
     "Private": "私有",
     "You choose who can see and commit to this repository.": "你决定谁可以看和提交到该仓库。",
     "Initialize this repository with a README": "初始化仓库的同时添加 README.md",
-    "This will let you immediately clone the repository to your computer. Skip this step if you’re importing an existing repository.": "这将使你可以立刻克隆该仓库到电脑上。如果您你要导入已有的仓库，请忽略这个选项。",
+    "This will let you immediately clone the repository to your computer. Skip this step if you’re importing an existing repository.": "这将使你可以立刻克隆该仓库到电脑上。如果你需要导入已有的仓库，请忽略这个选项。",
     "Create repository": "创建仓库",
     "Creating repository…": "创建仓库ing",
     "Add .gitignore:": "添加 .gitignore 文件",
@@ -828,7 +828,27 @@
     "Search": "搜索",
     "Search GitHub": "搜索 GitHub",
     "Search repositories…": "搜索仓库 …",
-    "Search starred repositories…": "搜索点赞的仓库 …"
+    "Search starred repositories…": "搜索点赞的仓库 …",
+
+
+    "Your gists": "你的片段",
+    "Starred gists": "点赞片段",
+    "Your GitHub profile": "你的 Github 主页",
+    "Add file": "添加文件",
+    "All gists": "所有片段",
+    "Gist description…": "片段描述 …",
+    "Filename including extension…": "包含后缀的文件名 …",
+    "Indent mode": "缩进模式",
+    "Spaces": "空格",
+    "Tabs": "TAB",
+    "Indent size": "缩进大小",
+    "Line wrap mode": "换行模式",
+    "No wrap": "无换行",
+    "Soft wrap": "软换行",
+    "See all of your gists": "查看你的所有片段",
+    "Create secret gist": "创建私有片段",
+    "Secret gists are hidden from search engines but visible to anyone you give the URL.": "私有片段对搜索引擎不可见，但是对任何得到你分享的 URL 的人可见。",
+    "Create public gist": "创建公开片段"
   },
 
   "regexp": {

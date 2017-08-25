@@ -11,7 +11,7 @@
     {
       "matches": [
         "https://github.com/*",
-        "https://gist.githu.com/*"
+        "https://gist.github.com/*"
       ],
       "js": ["polyocat.js"]
     }
