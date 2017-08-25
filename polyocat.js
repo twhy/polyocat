@@ -18,7 +18,7 @@ async function main() {
     "month day": /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
     "on month day": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
     "on month day, year": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/,
-    "View User on GitHub": /View (\w+) on GitHub/
+    "View USER on GitHub": /View (\w+) on GitHub/
   }
 
   let page = where()
@@ -92,6 +92,13 @@ async function main() {
     if (node.nodeType === Node.TEXT_NODE) translateTextNode(node)
     if (node.nodeType === Node.ELEMENT_NODE) translateElement(node)
   }
+ 
+  function translateTextNode(node) {
+    if (!node || node.nodeValue == null) return
+    let text = node.nodeValue.replace(/[\n\s]+/g, ' ').trim()
+    let tran = find(text)
+    if (tran) node.nodeValue = tran
+  }
   
   function translateElement(elem) {
     if ((elem.tagName === 'INPUT' || elem.tagName === 'TEXTAREA') && elem.placeholder) {
@@ -119,15 +126,6 @@ async function main() {
     if (elem.hasAttribute('aria-label')) {
       let label = find(elem.getAttribute('aria-label'))
       if (label) elem.setAttribute('aria-label', label)
-    }
-  }
-  
-  function translateTextNode(node) {
-    if (!node || node.nodeValue == null) return
-    let text = node.nodeValue.replace(/[\n\s]+/g, ' ').trim()
-    let tran = find(text)
-    if (tran) {
-      node.nodeValue = tran
     }
   }
 

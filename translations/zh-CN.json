@@ -747,6 +747,7 @@
     "Styling with Markdown is supported": "支持 Markdown 格式",
 
     "Comment": "评论",
+    "Releases": "发布",
     "Milestone": "里程碑",
     "No milestone": "暂无里程碑",
 
@@ -976,7 +977,7 @@
 
     "N open": "$1 个打开的",
     "N closed": "$1 个关闭的",
-    "N remaining": "$1 个剩余",
+    "N remaining": "剩余 $1 个",
     "N contributions": "$1 个贡献",
     "N contributions in the last year": "$1 个贡献发生在过去的一年中",
 
@@ -996,6 +997,6 @@
     "on month day": "于 $1 月 $2 日",
     "on month day, year": "于 $3 年 $1 月 $2 日",
 
-    "View User on GitHub": "查看 $1 的 Github 主页"
+    "View USER on GitHub": "查看 $1 的 Github 主页"
   }
 }
