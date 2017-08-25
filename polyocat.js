@@ -4,6 +4,11 @@ async function main() {
     "N open": /([\d,]+) Open/,
     "N closed": /([\d,]+) Closed/,
     "N remaining": /([\d,]+) remaining/,
+    "N languages": /([\d,]+) languages/,
+    "N repositories": /([\d,]+) repositories/,
+    "N stars today": /^([\d,]+) stars today$/,
+    "N stars this week": /^([\d,]+) stars this week$/,
+    "N stars this month": /^([\d,]+) stars this month$/,
     "N contributions": /^([\d,]+) contributions?$/,
     "N contributions in the last year": /([\d,]+) contributions in the last year/,
     "month day": /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
@@ -38,9 +43,10 @@ async function main() {
     for (let key in REGEXP) {
       let reg = REGEXP[key]
       if (reg.test(str)) {
-        return str
+        str = str
             .replace(reg, dict.regexp[key])
             .replace(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/, (match, p1) => dict.global.m2n[p1])
+        return ` ${str} `
       }
     }
     return ''
@@ -50,6 +56,8 @@ async function main() {
     let pathname = location.pathname
     if (pathname === '/' || pathname === '/dashboard') return 'homepage'
     if (pathname === '/new') return 'new'
+    if (pathname === '/trending') return 'trending'
+    if (/^\/showcases(?:\/.*)/.test(pathname)) return 'showcases'
     if (/^\/watching/.test(pathname)) return 'watching'
     if (/^\/notifications/.test(pathname)) return 'notifications'
     if (/\/settings\/.+$/.test(pathname)) return 'settings'

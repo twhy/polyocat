@@ -4,7 +4,6 @@
     "More": "多",
     "Overview": "概览",
     "Repositories": "仓库",
-    "Stars": "点赞",
     "Followers": "粉丝",
     "Following": "关注",
     "Organizations": "组织",
@@ -549,6 +548,19 @@
     "There are no deploy keys for this repository": "此仓库无任何部署密钥"
   },
 
+  "trending": {
+    "Trending in open source": "热门开源项目",
+    "See what the GitHub community is most excited about today.": "看看今天 GitHub 的童鞋们为之兴奋的项目。",
+    "See what the GitHub community is most excited about this week.": "看看本周 GitHub 的童鞋们为之兴奋的项目。",
+    "See what the GitHub community is most excited about this month.": "看看本月 GitHub 的童鞋们为之兴奋的项目。"
+  },
+
+  "showcases": {
+    "Browse popular repositories based on the topic that interests you most.": "基于你最感兴趣的话题来浏览流行的仓库",
+    "GitHub Browser Extensions": "GitHub 浏览器插件",
+    "Text editors": "文本编辑器"
+  },
+
   "global": {
     "Jan": "1月",
     "Feb": "2月",
@@ -597,9 +609,10 @@
     "Follow": "关注",
     "Unfollow": "取消关注",
     "Star": "点赞",
+    "Stars": "点赞",
     "Unstar": "消赞",
     "starred": "赞",
-
+    
     "Pull Requests": "合并请求",
     "Pull requests": "合并请求",
 
@@ -624,11 +637,18 @@
     "year": "年",
     "years": "年",
     "just now": "刚刚",
-    
+    "today": "今天",
+    "Today": "今天",
+    "this week": "本周",
+    "This week": "本周",
+    "this month": "本月",
+    "This month": "本月",
+
     "Fork": "派生",
     "forked from": "派生自",
     "More": "更多",
     "Learn more": "了解详情",
+    "View all": "查看全部",
 
     "Repositories": "仓库",
     "Member": "成员",
@@ -638,6 +658,7 @@
     "Select all": "选择全部",
     "Description": "描述",
     "Copy to clipboard": "复制",
+    "Download": "下载",
 
     "Overview": "概览",
     "Issues": "问题列表",
@@ -713,6 +734,7 @@
     "cancel": "取消",
     "Rename": "重命名",
     "Updated": "更新",
+    "Last updated": "最后一次更新",
 
     "New": "新建",
     "Teams": "团队",
@@ -772,6 +794,25 @@
     "management": "管理",
     "Integrations": "集成",
 
+    "Trending": "热门",
+    "Trending:": "热门",
+
+    "Other:": "其他:",
+    "Language": "语言",
+    "Languages": "语言",
+    "All languages": "所有语言",
+    "Other Languages": "其他语言",
+    "Filter Languages": "筛选语言",
+    "Unknown languages": "未知语言",
+
+    "Showcases": "橱窗",
+    "New showcases": "新的橱窗",
+    "More showcases": "更多橱窗",
+    "Search showcases": "搜索橱窗",
+    "Related showcases": "相关橱窗",
+    "Project showcases": "项目橱窗",
+    "Open source showcases": "开源橱窗",
+
     "Search": "搜索",
     "Search GitHub": "搜索 GitHub",
     "Search repositories…": "搜索仓库 …",
@@ -785,8 +826,15 @@
     "N contributions": "$1 个贡献",
     "N contributions in the last year": "$1 个贡献发生在过去的一年中",
 
+    "N languages": "$1 种语言",
+    "N repositories": "$1 个仓库",
+
+    "N stars today": "$1 赞 · 今天",
+    "N stars this week": "$1 赞 · 本周",
+    "N stars this month": "$1 赞 · 本月",
+
     "month day": "$1 月 $2 日",
     "on month day": "于 $1 月 $2 日",
-    "on month day, year": " 于 $3 年 $1 月 $2 日"
+    "on month day, year": "于 $3 年 $1 月 $2 日"
   }
 }
