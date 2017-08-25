@@ -209,11 +209,16 @@
     "SSH and GPG keys": "SSH 和 GPG 密钥",
 
     "Security": "安全设置",
+    "Security history": "操作记录",
+    "This is a security log of important events involving your account.": "这是你帐户重要事件的日志",
 
     "Blocked users": "屏蔽用户",
     "Block user": "屏蔽用户",
     "Block a user": "屏蔽一个用户",
+    "Search by username, full name or email address": "按用户名，名字或邮箱进行查找",
+    "Learn more about blocking a user": "了解更多关于屏蔽用户的信息",
     "You have not blocked any users.": "你没有屏蔽任何用户。",
+    "Warn me when a blocked user is a prior contributor to a repository": "当某个用户是一个仓库先前的贡献者时警示我",
 
     "Two-factor authentication": "双重身份验证",
     "Set up two-factor authentication": "设置双重身份验证",
@@ -650,6 +655,7 @@
     "People": "人们",
     "Projects": "项目",
     "Community": "社区",
+    "Organization": "组织",
 
     "Free": "免费",
     "Sort": "排序",
