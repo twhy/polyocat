@@ -553,7 +553,11 @@
     "Title": "标题",
     "Key": "密钥",
     "Add key": "新增密钥",
-    "There are no deploy keys for this repository": "此仓库无任何部署密钥"
+    "There are no deploy keys for this repository": "此仓库无任何部署密钥",
+    "Allow write access": "允许写入",
+    "Can this key be used to": "这个密钥可用于",
+    "push": "推送",
+    "to this repository? Deploy keys always have pull access.": "推送内容到本仓库吗？部署密钥总是具有读取权限。"
   },
 
   "trending": {
