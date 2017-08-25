@@ -57,7 +57,6 @@ async function main() {
     if (pathname === '/' || pathname === '/dashboard') return 'homepage'
     if (pathname === '/new') return 'new'
     if (pathname === '/trending') return 'trending'
-    if (/^\/showcases(?:\/.*)/.test(pathname)) return 'showcases'
     if (/^\/watching/.test(pathname)) return 'watching'
     if (/^\/notifications/.test(pathname)) return 'notifications'
     if (/\/settings\/.+$/.test(pathname)) return 'settings'

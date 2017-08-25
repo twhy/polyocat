@@ -555,12 +555,6 @@
     "See what the GitHub community is most excited about this month.": "看看本月 GitHub 的童鞋们为之兴奋的项目。"
   },
 
-  "showcases": {
-    "Browse popular repositories based on the topic that interests you most.": "基于你最感兴趣的话题来浏览流行的仓库",
-    "GitHub Browser Extensions": "GitHub 浏览器插件",
-    "Text editors": "文本编辑器"
-  },
-
   "global": {
     "Jan": "1月",
     "Feb": "2月",
@@ -812,6 +806,11 @@
     "Related showcases": "相关橱窗",
     "Project showcases": "项目橱窗",
     "Open source showcases": "开源橱窗",
+    "Browse popular repositories based on the topic that interests you most.": "基于你最感兴趣的话题来浏览流行的仓库",
+    "GitHub Browser Extensions": "GitHub 浏览器插件",
+    "Text editors": "文本编辑器",
+    "Trending repositories": "热门仓库",
+    "Starred by people you follow": "被你关注的人点赞",
 
     "Search": "搜索",
     "Search GitHub": "搜索 GitHub",
