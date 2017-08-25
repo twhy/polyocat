@@ -2,8 +2,15 @@ async function main() {
 
   const REGEXP = {
     "N open": /([\d,]+) Open/,
-    "N closed": /([\d,]+) Closed/
-  }
+    "N closed": /([\d,]+) Closed/,
+    "N remaining": /([\d,]+) remaining/,
+
+    "N contributions": /^([\d,]+) contributions?$/,
+    "N contributions in the last year": /([\d,]+) contributions in the last year/,
+
+    "month day": /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
+    "on date": /on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})/
+  }  
 
   let page = where()
   let lang = language()
@@ -32,7 +39,9 @@ async function main() {
     for (let key in REGEXP) {
       let reg = REGEXP[key]
       if (reg.test(str)) {
-        return str.replace(reg, dict.regexp[key])
+        return str
+            .replace(reg, dict.regexp[key])
+            .replace(/(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/, (match, p1) => dict.global.m2n[p1])
       }
     }
     return ''

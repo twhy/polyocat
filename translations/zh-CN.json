@@ -9,6 +9,7 @@
     "Following": "关注",
     "Organizations": "组织",
     "Add a bio": "添加自我介绍",
+    "Change your avatar": "修改头像",
     "Block or report user": "屏蔽或举报用户",
     "Show more activity": "展示更多",
     "Popular repositories": "受欢迎的仓库",
@@ -24,6 +25,16 @@
 
     "Customize pinned repositories": "自定义展示的仓库",
     "Customize your pinned repositories": "自定义展示的仓库",
+    "Your pinned repositories have been updated. Drag and drop to reorder them.": "置顶仓库已更新，你可以拖放它们进行排序。",
+    "Save pinned repositories": "保存置顶仓库",
+    "Select up to six public repositories you'd like to show.": "选择多至 6 个公开仓库用作展示",
+    "You can now pin up to 6 repositories.": "你现在可最多将 6 个仓库置顶。",
+    "Show:": "展示:",
+    "Your repositories": "你的仓库",
+    "Filter repositories": "筛选仓库",
+    "Repositories you contribute to": "你贡献过的仓库",
+
+    "No contributions": "无贡献",
     "Contribution settings": "贡献设置",
     "Select which contributions to show": "选择要显示哪​​些贡献",
     "Public contributions only": "仅展示公开的贡献",
@@ -79,7 +90,7 @@
     "Create organization": "创建组织",
     "Manage organizations": "管理组织",
 
-    "Repositories you contribute to": "你贡献过努力的仓库",
+    "Repositories you contribute to": "你贡献过的仓库",
     "Load more…": "加载更多 …",
 
     "Your repositories": "你的仓库",
@@ -545,6 +556,21 @@
     "Nov": "11月",
     "Dec": "12月",
 
+    "m2n": {
+      "Jan": "1",
+      "Feb": "2",
+      "Mar": "3",
+      "Apr": "4",
+      "May": "5",
+      "Jun": "6",
+      "Jul": "7",
+      "Aug": "8",
+      "Sep": "9",
+      "Oct": "10",
+      "Nov": "11",
+      "Dec": "12"
+    },
+
     "January": "一月",
     "February": "二月",
     "March": "三月",
@@ -672,6 +698,7 @@
     "Previous": "上一页",
     "Next": "下一页",
 
+    "merged": "合并",
     "cancel": "取消",
     "Rename": "重命名",
 
@@ -738,8 +765,15 @@
     "Search repositories…": "搜索仓库 …",
     "Search starred repositories…": "搜索点赞的仓库 …"
   },
+
   "regexp": {
     "N open": "$1 个打开的",
-    "N closed": "$1 个关闭的"
+    "N closed": "$1 个关闭的",
+    "N remaining": "$1 个剩余",
+    "N contributions": "$1 个贡献",
+    "N contributions in the last year": "$1 个贡献发生在过去的一年中",
+
+    "month day": "$1 月 $2 日",
+    "on date": " 于 $3 年 $1 月 $2 日"
   }
 }
