@@ -1,6 +1,8 @@
 async function main() {
 
   const REGEXP = {
+    "/ year": /\/ year$/,
+    "/ month": /\/ month$/,
     "N open": /^([\d,]+) Open$/,
     "N closed": /^([\d,]+) Closed$/,
     "N files": /^([\d,]+) files?$/,
@@ -18,7 +20,8 @@ async function main() {
     "month day": /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
     "on month day": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
     "on month day, year": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/,
-    "View USER on GitHub": /View (\w+) on GitHub/
+    "View USER on GitHub": /View (\w+) on GitHub/,
+    "Your next charge will be on date": /Your next charge will be on (\d{4}-\d{2}-\d{2})./
   }
 
   let page = where()
@@ -83,7 +86,7 @@ async function main() {
   
   function translate(node) {
     translateNode(node)
-    if (node.id === 'readme' || node.id === 'files') return
+    if (node.id === 'readme' || node.id === 'files' || /personal-access-tokens-group/.test(node.className)) return
     if (node.className === 'file') return translate(node.firstElementChild)
     node.childNodes.forEach(translate)
   }
