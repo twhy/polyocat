@@ -1,4 +1,4 @@
-# polyocat
+# polyocat = polyglot octocat
 
 Github 中文翻译插件 GitHub in your language. Inspired by [52cik/github-hans](https://github.com/52cik/github-hans) 👏👏👏
 
