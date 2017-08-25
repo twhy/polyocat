@@ -23,6 +23,9 @@
     "Sort:": "排序:",
     "Sort options": "排序选项",
 
+    "Top languages": "最常用语言",
+    "Invite someone": "邀请用户",
+
     "Customize pinned repositories": "自定义展示的仓库",
     "Customize your pinned repositories": "自定义展示的仓库",
     "Your pinned repositories have been updated. Drag and drop to reorder them.": "置顶仓库已更新，你可以拖放它们进行排序。",
@@ -304,7 +307,10 @@
     "owner": "所有者",
     "member": "成员",
     "Leave": "离开",
-    "Organization profile": "组织信息"
+    "Organization profile": "组织信息",
+    "Organization display name": "组织名称",
+    "Email (will be public)": "邮箱 (公开)",
+    "OAuth Apps": "OAuth 应用"
   },
 
   "repository": {
@@ -320,6 +326,7 @@
     "Manage topics": "管理主题",
     "(separate with spaces)": "以空格分隔",
     "Add topics to categorize your repository and make it more discoverable.": "给仓库添加主题并分类，让它更易被发现",
+    "Your repository details have been saved.": "你仓库的详情已保存。",
 
     "Quick setup": "快速设置",
     "— if you’ve done this kind of thing before": "- 如果你已有类似经验",
@@ -410,8 +417,8 @@
     "Blame": "追责",
     "History": "历史",
     "Open this file in GitHub Desktop": "使用 GitHub 桌面版打开此文件",
-    "Fork this project and edit the file": "此项目并修改此文件",
-    "Fork this project and delete the file": "分岔此项目并删除此文件",
+    "Fork this project and edit the file": "派生此项目并修改该文件",
+    "Fork this project and delete the file": "派生此项目并删除该文件",
     "Copy file path to clipboard": "复制文件路径",
     "Edit new file": "编辑新文件",
     "Commit new file": "提交新文件",
@@ -618,13 +625,17 @@
     "years": "年",
     "just now": "刚刚",
     
-
     "Fork": "派生",
     "forked from": "派生自",
     "More": "更多",
     "Learn more": "了解详情",
+
+    "Repositories": "仓库",
+    "Member": "成员",
+    "Owner": "所有者",
     
     "Save": "保存",
+    "Select all": "选择全部",
     "Description": "描述",
     "Copy to clipboard": "复制",
 

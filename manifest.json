@@ -9,7 +9,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
+      "matches": [
+        "https://github.com/*",
+        "https://gist.githu.com/*"
+      ],
       "js": ["polyocat.js"]
     }
   ],
