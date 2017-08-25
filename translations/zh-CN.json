@@ -352,6 +352,19 @@
     "Branch:": "分支:",
     "New pull request": "新建合并请求",
     "Nothing to show": "暂无",
+
+    "Assignees": "受理人",
+    "No one assigned": "暂无受理人",
+    "Add your reaction": "添加表情",
+    "Pick your reaction": "选择表情",
+    "Close issue": "关闭问题",
+    "Comment": "提交",
+    "Edit comment": "修改评论",
+    "Submit new issue": "提交新问题",
+    "Comment on this commit": "提交",
+    "Close and comment": "提交并关闭问题",
+    "Reopen and comment": "提交并重新打开问题",
+    "Reopen issue": "重新打开问题",
     
     "Create new file": "新建文件",
     "Creating file…": "新建文件ing",
@@ -554,8 +567,10 @@
     "year": "年",
     "years": "年",
     "just now": "刚刚",
+    
 
     "Fork": "派生",
+    "forked from": "派生自",
     "More": "更多",
     "Save": "保存",
     "Description": "描述",
@@ -566,8 +581,10 @@
     "Marketplace": "应用集市",
     "Gist": "代码片段",
     "Pricing": "定价",
+    "Support": "支持",
 
     "You have no unread notifications": "你没有未读的通知",
+    "You have unread notifications": "你有未读通知",
     "Learn how we count contributions": "了解我们如何统计贡献",
 
     "Create new…": "新建 …",
@@ -579,9 +596,9 @@
     "New issue": "新建问题",
 
     "View profile and more": "查看主页及更多操作",
-    "Signed in as": "用户",
+    "Signed in as": "你好",
     "Your profile": "个人主页",
-    "Your stars": "点赞仓库",
+    "Your stars": "已赞仓库",
     "Your Gists": "代码片段",
     "Explore": "探索 GitHub",
     "Explore GitHub": "探索 GitHub",
@@ -602,6 +619,25 @@
 
     "Write": "编辑",
     "Preview": "预览",
+    "Add header text": "标题",
+    "Add bold text <cmd+b>": "加粗 <cmd+b>",
+    "Add italic text <cmd+i>": "斜体 <cmd+i>",
+    "Insert a quote": "插入引用",
+    "Insert code": "插入代码",
+    "Insert a reply": "快捷回复",
+    "Default replies": "默认回复",
+    "Select a reply": "选择一个回复",
+    "Add a link <cmd+k>": "添加链接 <cmd+k>",
+    "Add a bulleted list": "添加无序列表",
+    "Add a numbered list": "添加有序列表",
+    "Add a task list": "添加任务列表",
+    "Directly mention a user or team": "@ 用户或团队",
+    "Reference an issue or pull request": "引用问题或合并请求",
+    "Leave a comment": "留下评论",
+
+    "Comment": "评论",
+    "Milestone": "里程碑",
+    "No milestone": "暂无里程碑",
 
     "Previous": "上一页",
     "Next": "下一页",
@@ -617,6 +653,8 @@
 
     "Free": "免费",
     "Sort": "排序",
+    "None yet": "暂无",
+    "Unsubscribe": "退订",
 
     "Sign in": "登录",
     "Sign up": "注册",
