@@ -3,6 +3,10 @@ async function main() {
   const REGEXP = {
     "N open": /([\d,]+) Open/,
     "N closed": /([\d,]+) Closed/,
+    "N files": /([\d,]+) files?/,
+    "N forks": /([\d,]+) forks?/,
+    "N stars": /([\d,]+) stars?/,
+    "N comments": /([\d,]+) comments?/,
     "N remaining": /([\d,]+) remaining/,
     "N languages": /([\d,]+) languages/,
     "N repositories": /([\d,]+) repositories/,
@@ -13,7 +17,8 @@ async function main() {
     "N contributions in the last year": /([\d,]+) contributions in the last year/,
     "month day": /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
     "on month day": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
-    "on month day, year": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/
+    "on month day, year": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/,
+    "View User on GitHub": /View (\w+) on GitHub/
   }
 
   let page = where()
@@ -53,6 +58,8 @@ async function main() {
   }
   
   function where() {
+    if (location.host === 'gist.github.com') return 'gist'
+
     let pathname = location.pathname
     if (pathname === '/' || pathname === '/dashboard') return 'homepage'
     if (pathname === '/new') return 'new'
@@ -108,7 +115,7 @@ async function main() {
         (match, p1, p2, p3) => `${find(p1) || p1} ${find(p2).trim()}${find(p3).trim()}`
       )
     }
-    
+
     if (elem.hasAttribute('aria-label')) {
       let label = find(elem.getAttribute('aria-label'))
       if (label) elem.setAttribute('aria-label', label)

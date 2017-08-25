@@ -846,15 +846,41 @@
     "See all of your gists": "查看你的所有片段",
     "Create secret gist": "创建私有片段",
     "Secret gists are hidden from search engines but visible to anyone you give the URL.": "私有片段对搜索引擎不可见，但是对任何得到你分享的 URL 的人可见。",
-    "Create public gist": "创建公开片段"
+    "Create public gist": "创建公开片段",
+    "Sort:": "排序:",
+    "Sort options": "排序选项",
+    "Recently created": "最近创建的",
+    "Least recently created": "最早创建的",
+    "Recently updated": "最近更新的",
+    "Least recently updated": "最早更新的",
+    "Filter:": "筛选:",
+    "Filter options": "筛选选项",
+    "Public & Secret": "公开 & 私有",
+    "Public only": "仅公开",
+    "Secret only": "仅私有",
+    "Created": "创建于",
+    "View": "查看",
+    "Newer": "新的",
+    "Older": "旧的",
+    "You don’t have any starred gists yet.": "你还没有给任何片段点赞过。"
+  },
+
+  "gist": {
+    "Starred": "点赞片段"
   },
 
   "regexp": {
+
     "N open": "$1 个打开的",
     "N closed": "$1 个关闭的",
     "N remaining": "$1 个剩余",
     "N contributions": "$1 个贡献",
     "N contributions in the last year": "$1 个贡献发生在过去的一年中",
+
+    "N stars": "$1 个赞",
+    "N files": "$1 个文件",
+    "N forks": "$1 个派生",
+    "N comments": "$1 条评论",
 
     "N languages": "$1 种语言",
     "N repositories": "$1 个仓库",
@@ -865,6 +891,8 @@
 
     "month day": "$1 月 $2 日",
     "on month day": "于 $1 月 $2 日",
-    "on month day, year": "于 $3 年 $1 月 $2 日"
+    "on month day, year": "于 $3 年 $1 月 $2 日",
+
+    "View User on GitHub": "查看 $1 的 Github 主页"
   }
 }
