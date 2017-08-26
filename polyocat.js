@@ -73,8 +73,8 @@ async function main() {
     if (/^\/watching/.test(pathname)) return 'watching'
     if (/^\/notifications/.test(pathname)) return 'notifications'
     if (/^\/(?:organizations\/\w+\/)?settings\/.+$/.test(pathname)) return 'settings'
-    if (/^\/\w+\/?$/.test(pathname)) return 'profile'
-    if (/^\/\w+\/.+$/.test(pathname)) return 'repository'
+    if (/^\/[\w-]+\/?$/.test(pathname)) return 'profile'
+    if (/^\/[\w-]+\/.+$/.test(pathname)) return 'repository'
   }
 
   function language() {
