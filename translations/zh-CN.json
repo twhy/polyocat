@@ -278,9 +278,15 @@
     "Add saved reply": "提交",
     "Add your saved reply": "快捷回复内容",
     "Add a short title to your reply": "给回复一个简短标题",
+    "Saved replies are re-usable text snippets that you can use throughout GitHub comment fields. Saved replies can save you time if you’re often typing similar responses.": "快捷回复是可重用的文本片段，可用于 GitHub 的全部评论框。它们可为你节省时间若你需要经常输入类似的回复。",
 
     "Authorized OAuth Apps": "已授权的 OAuth 应用",
     "Installed GitHub Apps": "已安装的 GitHub 应用",
+    "Alphabetical": "按字母顺序",
+    "Recently used": "按最近使用",
+    "Least recently used": "按最久不用",
+    "You have granted": "你已授权",
+    "access to your account.": "访问你的账户。",
     "Authorized GitHub Apps": "已授权的 GitHub 应用",
 
     "Developer settings": "开发者设置",
@@ -676,6 +682,7 @@
     "Unstar": "消赞",
     "starred": "赞",
     
+    
     "Pull Requests": "合并请求",
     "Pull requests": "合并请求",
 
@@ -731,7 +738,7 @@
     "Gist": "代码片段",
     "Pricing": "定价",
     "Support": "支持",
-    
+
     "Enter coupon code": "输入优惠码",
     "Redeem": "兑换",
 
@@ -799,6 +806,7 @@
     "Previous": "上一页",
     "Next": "下一页",
 
+    "Saved": "已保存",
     "merged": "合并",
     "copied!": "已复制",
     "cancel": "取消",
@@ -1046,6 +1054,7 @@
     "N files": "$1 个文件",
     "N forks": "$1 个派生",
     "N comments": "$1 条评论",
+    "N applications": "$1 个应用",
 
     "N languages": "$1 种语言",
     "N repositories": "$1 个仓库",
