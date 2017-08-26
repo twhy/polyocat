@@ -106,31 +106,33 @@ async function main() {
   }
   
   function translateElement(elem) {
-    if ((elem.tagName === 'INPUT' || elem.tagName === 'TEXTAREA') && elem.placeholder) {
-      let placeholder = find(elem.placeholder)
-      if (placeholder) elem.placeholder = placeholder
-    }
+    if (elem.tagName === 'INPUT' || elem.tagName === 'TEXTAREA') translateAttribute(elem, 'placeholder')
 
-    if (elem.tagName === 'INPUT' && elem.type === 'submit') {
-      let value = find(elem.value)
-      if (value) elem.value = value
-    }
+    if (elem.tagName === 'INPUT' && elem.type === 'submit') translateAttribute(elem, 'value')
 
-    if (elem.tagName === 'OPTGROUP' && elem.label) {
-      let label = find(elem.label)
-      if (label) elem.label = label
-    }
+    if (elem.tagName === 'OPTGROUP' && elem.label) translateAttribute(elem, 'label')
 
-    if ((elem.tagName === 'RELATIVE-TIME' || elem.tagName === 'TIME-AGO') && elem.innerText) {
+    if (elem.tagName === 'RELATIVE-TIME' || elem.tagName === 'TIME-AGO') {
       elem.innerText = elem.innerText.replace(
         /(\d+|a|an) (day|days|hour|hours|minute|minutes|second|seconds|month|months|year|years) (ago)/,
         (match, p1, p2, p3) => `${find(p1) || p1} ${find(p2).trim()}${find(p3).trim()}`
       )
     }
 
-    if (elem.hasAttribute('aria-label')) {
-      let label = find(elem.getAttribute('aria-label'))
-      if (label) elem.setAttribute('aria-label', label)
+    translateAttribute(elem, 'aria-label')
+    translateAttribute(elem, 'data-copied-hint')
+  }
+
+  function translateAttribute(elem, name) {
+    if (elem[name]) {
+      let tran = find(elem[name])
+      if (tran) elem[name] = tran
+      return
+    }
+    
+    if (elem.hasAttribute(name)) {
+      let tran = find(elem.getAttribute(name))
+      if (tran) elem.setAttribute(name, tran)
     }
   }
 
