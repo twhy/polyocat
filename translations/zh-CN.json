@@ -653,7 +653,6 @@
 
   "trending": {
     "Trending in open source": "热门开源项目",
-    "Adjust time span": "调整时间跨度",
     "See what the GitHub community is most excited about today.": "看看今天 GitHub 的童鞋们为之兴奋的项目。",
     "See what the GitHub community is most excited about this week.": "看看本周 GitHub 的童鞋们为之兴奋的项目。",
     "See what the GitHub community is most excited about this month.": "看看本月 GitHub 的童鞋们为之兴奋的项目。"
@@ -1024,6 +1023,7 @@
     "Text editors": "文本编辑器",
     "Trending repositories": "热门仓库",
     "Trending developers": "热门开发者",
+    "Adjust time span": "调整时间跨度",
     "Starred by people you follow": "被你关注的人点赞",
     "These are the organizations and developers building the hot tools today.": "这些是正在构建热门工具的组织和开发者。",
     
