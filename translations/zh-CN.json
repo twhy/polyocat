@@ -388,6 +388,7 @@
     "Website for this repository (optional)": "此仓库的网站 (可选)",
     "Description": "描述",
     "Short description of this repository": "此仓库的简短描述",
+    "You’re creating a file in a project you don’t have write access to. We’ve created a fork of this project for you to commit your proposed changes to. Submitting a change will create the file in a new branch in your fork, so you can send a pull request.": "你正在一个你不具备写入权限的仓库新建文件。我们为此派生了此项目用于写入你提议的变更。提交后的文件会在派生库的一个新分支，以便你发起一个并入请求。",
 
     "Notifications": "通知",
     "Watch": "关注",
