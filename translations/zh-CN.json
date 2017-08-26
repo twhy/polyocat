@@ -230,8 +230,19 @@
     "You have not made any payments.": "你还没有支付记录",
     "Amounts shown in USD": "金额以美元显示",
     "Downgrade your plan": "降级你的方案",
+    "Downgrade anytime, but you'll lose access to your private repositories": "任何时候都可以降级，但你会失去对私有项目的访问。",
+    "Need to talk to someone?": "需要找人谈谈？",
+    "Contact us": "联系我们",
+    "—we'd love to help.": "我们非常乐意帮助。",
+    "Extra info": "额外信息",
+    "Add information": "添加信息",
+    "You have not added any additional information for your receipts.": "你还没有给你的收据添加任何额外信息。",
     "Update payment method": "更新支付方式",
     "Downgrade to free": "降级为免费方案",
+    "Expiration:": "期满:",
+    "Total Amount:": "总金额",
+    "Next payment due:": "下次付款日期",
+    "Change to yearly billing": "更改为按年付费",
 
     "SSH and GPG keys": "SSH 和 GPG 密钥",
 
@@ -720,6 +731,9 @@
     "Gist": "代码片段",
     "Pricing": "定价",
     "Support": "支持",
+    
+    "Enter coupon code": "输入优惠码",
+    "Redeem": "兑换",
 
     "You have no unread notifications": "你没有未读的通知",
     "You have unread notifications": "你有未读通知",
