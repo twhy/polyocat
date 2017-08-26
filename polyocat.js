@@ -13,6 +13,7 @@ async function main() {
     "N languages": /^([\d,]+) languages?$/,
     "N applications": /^([\d,]+) applications?$/,
     "N repositories": /^([\d,]+) repositor(?:y|ies)$/,
+    "N hours ago": /^(\d+) hours ago$/,
     "N stars today": /^([\d,]+) stars today$/,
     "N stars this week": /^([\d,]+) stars this week$/,
     "N stars this month": /^([\d,]+) stars this month$/,

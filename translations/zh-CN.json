@@ -54,7 +54,7 @@
     
     "Contribution activity": "贡献记录",
     "Jump to": "跳转到",
-    "First pull request": "第一次合并请求",
+    "First pull request": "第一次并入请求",
     "First issue": "第一个问题",
     "First repository": "第一个仓库",
     "Joined GitHub": "加入 GitHub",
@@ -404,7 +404,7 @@
 
     "Open issues and pull requests": "打开的问题或拉取请求",
     "Your issues": "你提出的问题",
-    "Your pull requests": "你的合并请求",
+    "Your pull requests": "你的并入请求",
     "Everything assigned to you": "所有委托你的",
     "Everything mentioning you": "所有提及你的",
     "View advanced search syntax": "查看高级搜索语法",
@@ -427,7 +427,7 @@
     "Network": "网络",
     "Members": "成员",
 
-    "Contributions to master, excluding merge commits": "对主分支的贡献，不包括合并提交",
+    "Contributions to master, excluding merge commits": "对主分支的贡献，不包括并入提交",
     "Filter contributions": "筛选贡献者",
     "Additions": "添加数量",
     "Deletions": "删除数量",
@@ -438,7 +438,7 @@
     "Tags": "标签",
     "Branches": "分支",
     "Branch:": "分支:",
-    "New pull request": "新建合并请求",
+    "New pull request": "新建并入请求",
     "Nothing to show": "暂无",
 
     "Assignee": "受理人",
@@ -500,11 +500,28 @@
     "Add an optional extended description…": "添加一段可选的描述 …",
     "Create a": "创建一个",
     "new branch": "新分支",
-    "for this commit and start a pull request.": "进行提交并发起合并请求",
-    "Learn more about pull requests.": "了解更多关于合并请求的信息",
+    "for this commit and start a pull request.": "进行提交并发起并入请求",
+    "Learn more about pull requests.": "了解更多关于并入请求的信息",
 
     "Newer": "新的",
     "Older": "旧的",
+
+    "Compare changes": "比较变更",
+    "Comparing changes": "比较变更",
+    "base:": "基于",
+    "compare:": "对比",
+    "Create pull request": "创建并入请求",
+    "Guide: Using pull requests": "指南：使用并入请求",
+    "Choose different branches or forks above to discuss and review changes.": "选择不同的分支或派生来讨论和查看变化。",
+    "Compare changes across branches, commits, tags, and more below. If you need to, you can also": "跨分支，提交，标签等进行比较。如果你需要，也可以",
+    "Filter repos": "筛选仓库",
+    "compare across forks": "比较各个派生库",
+    "Choose a base branch": "选择一个基础分支",
+    "There isn’t anything to compare.": "没有任何东西可进行比较。",
+    "Branch, tag, commit, or history marker": "分支，标签，提交或历史记号",
+    "Compare and review just about anything": "比较和审查任何文件",
+    "Branches, tags, commit ranges, and time ranges. In the same repository and across forks.": "分支，标签，提交范围和时间范围。在同一仓库和派生的仓库。",
+    "Example comparisons": "比较样例",
 
     "Filter users": "筛选用户",
     "Filter labels": "筛选标签",
@@ -532,7 +549,7 @@
     "Name": "名称",
     "Save project": "保存项目",
     
-    "There aren’t any open pull requests.": "暂无合并请求。",
+    "There aren’t any open pull requests.": "暂无并入请求。",
 
     "Options": "选项",
     "Repository": "仓库",
@@ -581,7 +598,7 @@
     "Custom domains allow you to serve your site from a domain other than": "自定义域名令你可以通过其他域名访问该网站而不仅仅是",
 
 
-    "Merge button": "合并按钮",
+    "Merge button": "并入按钮",
     
     "Danger Zone": "危险区域",
     
@@ -711,8 +728,8 @@
     "starred": "赞",
     
     
-    "Pull Requests": "合并请求",
-    "Pull requests": "合并请求",
+    "Pull Requests": "并入请求",
+    "Pull requests": "并入请求",
 
     "Notifications": "通知",
     "Unwatch": "取消关注",
@@ -819,7 +836,7 @@
     "Add a numbered list": "添加有序列表",
     "Add a task list": "添加任务列表",
     "Directly mention a user or team": "@ 用户或团队",
-    "Reference an issue or pull request": "引用问题或合并请求",
+    "Reference an issue or pull request": "引用问题或并入请求",
     "Leave a comment": "留下评论",
     "Attach files by dragging & dropping,": "拖放以添加附件，",
     "selecting them": "选择文件",
@@ -835,7 +852,7 @@
     "Next": "下一页",
 
     "Saved": "已保存",
-    "merged": "合并",
+    "merged": "并入",
     "copied!": "已复制",
     "cancel": "取消",
     "Rename": "重命名",
@@ -1110,6 +1127,8 @@
 
     "/ year": "/ 年",
     "/ month": "/ 月",
+
+    "N hours ago": "$1 小时前",
 
     "month day": "$1 月 $2 日",
     "on month day": "于 $1 月 $2 日",
