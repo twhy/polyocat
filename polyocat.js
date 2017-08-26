@@ -12,7 +12,7 @@ async function main() {
     "N remaining": /^([\d,]+) remaining$/,
     "N languages": /^([\d,]+) languages?$/,
     "N applications": /^([\d,]+) applications?$/,
-    "N repositories": /^([\d,]+) repositories?$/,
+    "N repositories": /^([\d,]+) repositor(?:y|ies)$/,
     "N stars today": /^([\d,]+) stars today$/,
     "N stars this week": /^([\d,]+) stars this week$/,
     "N stars this month": /^([\d,]+) stars this month$/,
@@ -44,7 +44,6 @@ async function main() {
     subtree: true
   })
 
-  translateTitle()
   translate(document.body)
   
   function find(str) {
@@ -97,12 +96,6 @@ async function main() {
     if (node.nodeType === Node.TEXT_NODE) return translateTextNode(node)
     if (node.nodeType === Node.ELEMENT_NODE) return translateElement(node)
   }
-
-  function translateTitle() {
-    let title = document.title.trim()
-    let value = find(title)
-    if (value) document.title = value
-  }
  
   function translateTextNode(node) {
     if (!node || node.nodeValue == null) return
@@ -113,15 +106,18 @@ async function main() {
   
   function translateElement(elem) {
     if ((elem.tagName === 'INPUT' || elem.tagName === 'TEXTAREA') && elem.placeholder) {
-      elem.placeholder = find(elem.placeholder) || elem.placeholder
+      let placeholder = find(elem.placeholder)
+      if (placeholder) elem.placeholder = placeholder
     }
 
     if (elem.tagName === 'INPUT' && elem.type === 'submit') {
-      elem.value = find(elem.value) || elem.value
+      let value = find(elem.value)
+      if (value) elem.value = value
     }
 
     if (elem.tagName === 'OPTGROUP' && elem.label) {
-      elem.label = find(elem.label) || elem.label
+      let label = find(elem.label)
+      if (label) elem.label = label
     }
 
     if ((elem.tagName === 'RELATIVE-TIME' || elem.tagName === 'TIME-AGO') && elem.innerText) {
