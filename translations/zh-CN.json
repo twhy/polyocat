@@ -815,6 +815,7 @@
     "Last updated": "最后一次更新",
 
     "New": "新建",
+    "Team": "团队",
     "Teams": "团队",
     "People": "人们",
     "Projects": "项目",
@@ -932,6 +933,18 @@
     "You are entering": "你正进入",
     "sudo mode": "sudo 模式",
     ". We won’t ask for your password again for a few hours.": "。我们在接下来的几个小时内不会再向你询问密码。",
+
+    "Sign up your team": "注册你的团队",
+    "Create an organization account": "创建组织账户",
+    "Create organization": "创建组织",
+    "Organization name": "组织名称",
+    "Invite members": "邀请成员",
+    "per user": "每用户",
+    "Billing email": "账单邮件",
+    "Receipts will be sent here": "收据会发送到此邮箱",
+    "The organization account will live at https://github.com/": "该组织账户将在 https://github.com/ 上启用。",
+    "Unlimited users and public repositories": "无限的用户和公开仓库",
+    "Starts at $25 / month which includes your first 5 users.": "25 美元/月起，包含前 5 名用户。",
 
     "Features": "特性",
     "Business": "商用",
