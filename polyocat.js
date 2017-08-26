@@ -89,8 +89,16 @@ async function main() {
   
   function translate(node) {
     translateNode(node)
-    if (node.id === 'readme' || node.id === 'files' || /personal-access-tokens-group/.test(node.className)) return
+
     if (node.className === 'file') return translate(node.firstElementChild)
+    
+    if (
+      node.id === 'files' ||
+      node.id === 'readme' ||
+      /octotree_sidebar/.test(node.className) ||
+      /personal-access-tokens-group/.test(node.className)
+    ) { return }
+
     node.childNodes.forEach(translate)
   }
   
