@@ -94,8 +94,8 @@ async function main() {
   }
   
   function translateNode(node) {
-    if (node.nodeType === Node.TEXT_NODE) translateTextNode(node)
-    if (node.nodeType === Node.ELEMENT_NODE) translateElement(node)
+    if (node.nodeType === Node.TEXT_NODE) return translateTextNode(node)
+    if (node.nodeType === Node.ELEMENT_NODE) return translateElement(node)
   }
 
   function translateTitle() {
