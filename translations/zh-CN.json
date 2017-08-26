@@ -939,6 +939,7 @@
     "Open source community": "开源社区",
     "Completed": "完成",
     "Continue": "继续",
+    "Finish": "完成",
 
     "Welcome to GitHub": "欢迎来到 GitHub",
     "You’ve taken your first step into a larger world,": "你已经迈出了第一步进入到更大的世界，",
@@ -1021,6 +1022,10 @@
     "The organization account will live at https://github.com/": "该组织账户将在 https://github.com/ 上启用。",
     "Unlimited users and public repositories": "无限的用户和公开仓库",
     "Starts at $25 / month which includes your first 5 users.": "25 美元/月起，包含前 5 名用户。",
+    "Organization members": "组织成员",
+    "Invite organization members": "邀请组织成员",
+    "This organization has no repositories.": "这个组织暂无仓库。",
+    "Create a new repository": "创建一个仓库",
 
     "Features": "特性",
     "Business": "商用",
