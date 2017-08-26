@@ -22,6 +22,7 @@ async function main() {
     "month day": /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
     "on month day": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
     "on month day, year": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/,
+    "Joined on Jun 24, 2017": /^Joined on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/,
     "View USER on GitHub": /View (\w+) on GitHub/,
     "Your next charge will be on date": /Your next charge will be on (\d{4}-\d{2}-\d{2})./
   }

@@ -900,6 +900,9 @@
     "Options": "选项",
     "Resend": "重新发送",
 
+    "All": "全部",
+    "You know": "你认识的",
+    "Stargazers": "点赞的人",
     "Sign in": "登录",
     "Sign up": "注册",
     "Email Address": "邮箱",
@@ -1160,6 +1163,7 @@
     "month day": "$1 月 $2 日",
     "on month day": "于 $1 月 $2 日",
     "on month day, year": "于 $3 年 $1 月 $2 日",
+    "Joined on Jun 24, 2017": "加入于 $3 年 $1 月 $2 日",
 
     "View USER on GitHub": "查看 $1 的 Github 主页",
     "Your next charge will be on date": "下次收费日期为 $1。"
