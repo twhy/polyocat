@@ -77,7 +77,7 @@
     "Initialize this repository with a README": "初始化仓库的同时添加 README.md",
     "This will let you immediately clone the repository to your computer. Skip this step if you’re importing an existing repository.": "这将使你可以立刻克隆该仓库到电脑上。如果你需要导入已有的仓库，请忽略这个选项。",
     "Create repository": "创建仓库",
-    "Creating repository…": "创建仓库ing",
+    "Creating repository…": "创建仓库 …",
     "Add .gitignore:": "添加 .gitignore 文件",
     "Filter ignores…": "筛选 …",
     "None": "无",
@@ -456,7 +456,7 @@
     "Reopen issue": "重新打开问题",
     
     "Create new file": "新建文件",
-    "Creating file…": "新建文件ing",
+    "Creating file…": "新建文件 …",
     "Upload files": "上传文件",
     "Find file": "查找文件",
     "Copy path": "复制路径",
