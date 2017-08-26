@@ -20,6 +20,12 @@
 
     "Type:": "类型",
     "All": "全部",
+    "Select type:": "选择类型",
+    "Public": "公开",
+    "Private": "私有",
+    "Sources": "源库",
+    "Forks": "派生",
+    "Mirrors": "镜像",
     "Language:": "语言:",
     "All languages": "所有语言",
     "Select language:": "选择语言",
