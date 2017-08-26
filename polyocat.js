@@ -67,7 +67,7 @@ async function main() {
     if (location.host === 'gist.github.com') return 'gist'
 
     let pathname = location.pathname
-    if (pathname === '/' || pathname === '/dashboard') return 'homepage'
+    if (pathname === '/' || /dashboard/.test(pathname)) return 'dashboard'
     if (pathname === '/new') return 'new'
     if (pathname === '/trending') return 'trending'
     if (/^\/watching/.test(pathname)) return 'watching'

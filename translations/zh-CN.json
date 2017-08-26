@@ -58,8 +58,6 @@
     "First issue": "第一个问题",
     "First repository": "第一个仓库",
     "Joined GitHub": "加入 GitHub",
-
-    "This organization": "此组织",
     "Report abuse": "举报滥用"
   },
 
@@ -70,7 +68,6 @@
     "Owner": "所有者",
     "Repository name": "仓库名",
     "(optional)": "(可选)",
-    "Public": "公开",
     "Anyone can see this repository. You choose who can commit.": "任何人都可以看到这个仓库。你决定谁能提交。",
     "Private": "私有",
     "You choose who can see and commit to this repository.": "你决定谁可以看和提交到该仓库。",
@@ -87,7 +84,7 @@
     "Need help picking a license? We’ve built a site just for you.": "需要帮助你挑选一个许可证书吗？我们为此建立一个网站供你参考。"
   },
 
-  "homepage": {
+  "dashboard": {
     "All": "全部",
     "Public": "公开",
     "Private": "私有",
@@ -1012,6 +1009,7 @@
     ". We won’t ask for your password again for a few hours.": "。我们在接下来的几个小时内不会再向你询问密码。",
 
     "Sign up your team": "注册你的团队",
+    "This organization": "此组织",
     "Create an organization account": "创建组织账户",
     "Create organization": "创建组织",
     "Organization name": "组织名称",
