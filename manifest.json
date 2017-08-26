@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Polyocat",
-  "version": "0.0.0.9",
+  "version": "0.0.1",
   "description": "Github in your language",
   "icons": {
     "48": "icons/icon48.png",
