@@ -71,7 +71,7 @@ async function main() {
     if (pathname === '/trending') return 'trending'
     if (/^\/watching/.test(pathname)) return 'watching'
     if (/^\/notifications/.test(pathname)) return 'notifications'
-    if (/^\/settings\/.+$/.test(pathname)) return 'settings'
+    if (/^\/(?:organizations\/\w+\/)?settings\/.+$/.test(pathname)) return 'settings'
     if (/^\/\w+\/?$/.test(pathname)) return 'profile'
     if (/^\/\w+\/.+$/.test(pathname)) return 'repository'
   }

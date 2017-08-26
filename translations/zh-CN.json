@@ -206,6 +206,8 @@
     "Save email preferences": "保存邮件偏好",
 
     "Notifications": "通知设置",
+    "Member privileges": "成员权限",
+    "Repository topics": "仓库主题",
 
     "Billing": "账单设置",
     "Billing overview": "账单概览",
@@ -249,6 +251,7 @@
     "Security": "安全设置",
     "Security history": "操作记录",
     "This is a security log of important events involving your account.": "这是你帐户重要事件的日志",
+    "Audit log": "审计日志",
 
     "Blocked users": "屏蔽用户",
     "Block user": "屏蔽用户",
@@ -398,7 +401,6 @@
     "Sort": "排序",
     "Author": "作者",
     "Labels": "标签",
-    "Filters": "筛选",
     "Milestones": "里程碑",
 
     "Open issues and pull requests": "打开的问题或拉取请求",
@@ -611,9 +613,7 @@
 
 
     "Merge button": "并入按钮",
-    
-    "Danger Zone": "危险区域",
-    
+        
     "Make private": "私有化",
     "Hide this repository from the public.": "将此仓库对公众隐藏。",
     "Listen up! This is a potentially destructive action.": "注意！这可能是具有破坏性的动作。",
@@ -777,12 +777,15 @@
     "Learn more": "了解详情",
     "Learn more.": "了解详情",
     "View all": "查看全部",
+    "Export": "导出",
+    "Filters": "筛选",
 
     "Repositories": "仓库",
     "Member": "成员",
     "Owner": "所有者",
     
     "Save": "保存",
+    "Read": "读取",
     "Select all": "选择全部",
     "Description": "描述",
     "Copy to clipboard": "复制",
@@ -995,6 +998,8 @@
     "Confirm password to continue": "确认密码后才能继续操作",
     "(Forgot password)": "(忘记密码)",
     "Confirm password": "确认密码",
+    "Danger Zone": "危险区域",
+    "Danger zone": "危险区域",
 
     "Tip:": "提示:",
     "You are entering": "你正进入",
