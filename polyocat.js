@@ -113,18 +113,15 @@ async function main() {
   
   function translateElement(elem) {
     if ((elem.tagName === 'INPUT' || elem.tagName === 'TEXTAREA') && elem.placeholder) {
-      let placeholder = find(elem.placeholder)
-      if (placeholder) elem.placeholder = placeholder
+      elem.placeholder = find(elem.placeholder) || elem.placeholder
     }
 
     if (elem.tagName === 'INPUT' && elem.type === 'submit') {
-      let value = find(elem.value)
-      if (value) elem.value = value
+      elem.value = find(elem.value) || elem.value
     }
 
     if (elem.tagName === 'OPTGROUP' && elem.label) {
-      let label = find(elem.label)
-      if (label) elem.label = label
+      elem.label = find(elem.label) || elem.label
     }
 
     if ((elem.tagName === 'RELATIVE-TIME' || elem.tagName === 'TIME-AGO') && elem.innerText) {
