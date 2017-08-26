@@ -44,6 +44,7 @@ async function main() {
     subtree: true
   })
 
+  translateTitle()
   translate(document.body)
   
   function find(str) {
@@ -95,6 +96,12 @@ async function main() {
   function translateNode(node) {
     if (node.nodeType === Node.TEXT_NODE) translateTextNode(node)
     if (node.nodeType === Node.ELEMENT_NODE) translateElement(node)
+  }
+
+  function translateTitle() {
+    let title = document.title.trim()
+    let value = find(title)
+    if (value) document.title = value
   }
  
   function translateTextNode(node) {
