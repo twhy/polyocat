@@ -23,7 +23,7 @@ async function main() {
     "on month day": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+)$/,
     "on month day, year": /^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/,
     "Joined on Jun 24, 2017": /^Joined on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/,
-    "View USER on GitHub": /View (\w+) on GitHub/,
+    "View USER on GitHub": /View ([\w-]+) on GitHub/,
     "Turn USER into an organization": /Turn ([\w-]+) into an organization/,
     "Your next charge will be on date": /Your next charge will be on (\d{4}-\d{2}-\d{2})./
   }
@@ -102,6 +102,8 @@ async function main() {
       /octotree_sidebar/.test(node.className) ||
       /personal-access-tokens-group/.test(node.className)
     ) { return }
+
+    if (node.className && /CodeMirror/.test(node.className)) return
 
     node.childNodes.forEach(translate)
   }
