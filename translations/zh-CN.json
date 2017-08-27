@@ -584,11 +584,14 @@
     "Repository": "仓库",
     "Repository name": "仓库名",
     "Features": "特性",
-    "Wikis": "Wikis 百科",
+    "Wikis": "百科",
     "GitHub Wikis is a simple way to let others contribute content. Any GitHub user can create and edit pages to use for documentation, examples, support, or anything you wish.": "GitHub Wikis 是一种让别人贡献内容的简单方式。任何 GitHub 用户都可以创建和编辑页面用作文档，示例，帮助或你希望的任何事情。",
     "Restrict editing to collaborators only": "只有合作者才可以编辑",
     "Restrict editing to users in teams with push access only": "只有团队中有 push 权限的用户才能编辑",
     "Public wikis will still be readable by everyone.": "公共 wikis 仍可被所有人阅读",
+    "Issues": "问题",
+    "GitHub Issues adds lightweight issue tracking tightly integrated with your repository. Add issues to milestones, label issues, and close & reference issues from commit messages.": "为你的仓库量身添加的轻量级的问题跟踪功能。把问题加到里程碑，标记问题，关闭问题或在提交信息中引用问题。",
+    "Project boards on GitHub help you organize and prioritize your work. You can create project boards for specific feature work, comprehensive roadmaps, or even release checklists.": "项目板帮助你组织和优先处理工作，你可以为特定功能，全面的路线图甚至发布清单创建项目板。",
 
     "GitHub Pages": "GitHub 项目页面",
     "is designed to host your personal, organization, or project pages from a GitHub repository.": "为你个人，组织或项目页面提供托管服务。",
@@ -625,9 +628,12 @@
     "Choose a theme": "选择主题",
     "Custom domain": "自定义域名",
     "Custom domains allow you to serve your site from a domain other than": "自定义域名令你可以通过其他域名访问该网站而不仅仅是",
+    "Enforce HTTPS": "强制 HTTPS",
+    "— Required for your site because you are using the default domain (": "— 这是必须的，由于你的网站正在使用默认域名(",
+    "HTTPS provides a layer of encryption that prevents others from snooping on or tampering with traffic to your site.": "HTTPS 提供了一层加密防止他人嗅探或篡改你的网站。",
+    "When HTTPS is enforced, your site will only be served over HTTPS.": "当强制使用 HTTPS 时，你的网站只会以 HTTPS 方式加载。",
 
-
-    "Merge button": "并入按钮",
+    "Merge button": "合并按钮",
         
     "Make private": "私有化",
     "Hide this repository from the public.": "将此仓库对公众隐藏。",
