@@ -1,6 +1,6 @@
 {
   "name": "polyocat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "GitHub in your language",
   "main": "polyocat.js",
   "scripts": {
