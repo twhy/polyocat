@@ -277,6 +277,7 @@
     "Repositories": "仓库设置",
     "Organizations": "组织设置",
     "Transform account": "账户变更",
+    "You cannot transform this account into an organization until you leave all organizations that you're a member of.": "你无法将此账户变更为组织直到你离开所有组织。",
     "Saved replies": "快捷回复",
     "Add a saved reply": "新增快捷回复",
     "Saved reply title": "快捷回复标题",
@@ -1183,6 +1184,7 @@
     "on month day": "于 $1 月 $2 日",
     "on month day, year": "于 $3 年 $1 月 $2 日",
     "Joined on Jun 24, 2017": "加入于 $3 年 $1 月 $2 日",
+    "Turn USER into an organization": "将 $1 变更为组织",
 
     "View USER on GitHub": "查看 $1 的 Github 主页",
     "Your next charge will be on date": "下次收费日期为 $1。"
