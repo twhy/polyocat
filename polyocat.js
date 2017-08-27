@@ -72,6 +72,7 @@ async function main() {
     if (pathname === '/new') return 'new'
     if (pathname === '/trending') return 'trending'
     if (/^\/watching/.test(pathname)) return 'watching'
+    if (/^\/pulls(\/.*)?/.test(pathname)) return 'pulls'
     if (/^\/notifications/.test(pathname)) return 'notifications'
     if (/^\/(?:organizations\/\w+\/)?settings\/.+$/.test(pathname)) return 'settings'
     if (/^\/[\w-]+\/?$/.test(pathname)) return 'profile'
@@ -91,7 +92,9 @@ async function main() {
   function translate(node) {
     translateNode(node)
 
-    if (node.className === 'file') return translate(node.firstElementChild)
+    if (node.classList && node.classList[0] === 'file') {
+      return translate(node.firstElementChild)
+    }
     
     if (
       node.id === 'files' ||

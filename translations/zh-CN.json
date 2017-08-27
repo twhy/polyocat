@@ -703,6 +703,12 @@
     "There aren’t any open issues.": "暂无打开的问题。"
   },
 
+  "pulls": {
+    "Created": "已创建",
+    "Assigned": "已分配",
+    "Mentioned": "提到的"
+  },
+
   "trending": {
     "Trending in open source": "热门开源项目",
     "See what the GitHub community is most excited about today.": "看看今天 GitHub 的童鞋们为之兴奋的项目。",
