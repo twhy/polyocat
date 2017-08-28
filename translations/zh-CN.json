@@ -1109,6 +1109,11 @@
     "This organization has no repositories.": "这个组织暂无仓库。",
     "Create a new repository": "创建一个仓库",
 
+    "Edit invitation": "编辑邀请",
+    "Update invitation": "更新邀请",
+    "Cancel invitation": "取消邀请",
+    "Pending invitations": "未定邀请",
+
     "Features": "特性",
     "Business": "商用",
     "Platform": "平台",
@@ -1257,6 +1262,7 @@
 
     "N languages": "$1 种语言",
     "N repositories": "$1 个仓库",
+    "N pending invitations": "$1 个未定邀请",
 
     "N stars today": "$1 赞 · 今天",
     "N stars this week": "$1 赞 · 本周",

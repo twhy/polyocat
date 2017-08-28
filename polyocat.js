@@ -11,6 +11,7 @@ async function main() {
     "N comments": /^([\d,]+) comments?$/,
     "N remaining": /^([\d,]+) remaining$/,
     "N languages": /^([\d,]+) languages?$/,
+    "N pending invitations": /^([\d,]+) pending invitations?$/,
     "N applications": /^([\d,]+) applications?$/,
     "N repositories": /^([\d,]+) repositor(?:y|ies)$/,
     "N hours ago": /^(\d+) hours ago$/,
