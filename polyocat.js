@@ -70,8 +70,9 @@ async function main() {
 
     let pathname = location.pathname
     if (pathname === '/' || /dashboard/.test(pathname)) return 'dashboard'
-    if (pathname === '/new') return 'new'
+      'organizations/fe13/repositories/new'
     if (pathname === '/trending') return 'trending'
+    if (pathname === '/new' || pathname.endsWith('repositories/new')) return 'new'
     if (/^\/watching/.test(pathname)) return 'watching'
     if (/^\/pulls(\/.*)?/.test(pathname)) return 'pulls'
     if (/^\/notifications/.test(pathname)) return 'notifications'
