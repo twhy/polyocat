@@ -96,14 +96,13 @@
     "Private": "私有",
     "Sources": "源库",
     "Forks": "派生",
-
     "Switch dashboard context": "切换角色",
     "Create organization": "创建组织",
     "Manage organizations": "管理组织",
 
     "Repositories you contribute to": "你贡献过的仓库",
     "Load more…": "加载更多 …",
-
+    "News Feed": "消息动态",
     "Your repositories": "你的仓库",
     "Find a repository…": "查找仓库 …",
     "You don’t have any repositories yet!": "你还没有任何仓库！",
@@ -1275,7 +1274,7 @@
     "Turn USER into an organization": "将 $1 变更为组织",
 
     "Delete PROJECT_NAME": "删除 $1",
-
+    "View USER": "查看 $1",
     "View USER on GitHub": "查看 $1 的 Github 主页",
     "Your next charge will be on date": "下次收费日期为 $1。"
   }

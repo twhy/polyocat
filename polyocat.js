@@ -25,6 +25,7 @@ async function main() {
     "Joined on Jun 24, 2017": /^Joined on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d+), (\d{4})$/,
     "View USER on GitHub": /View ([\w-]+) on GitHub/,
     "Delete PROJECT_NAME": /Delete (.*)$/,
+    "View USER": /View ([\w-]+)$/,
     "Turn USER into an organization": /Turn ([\w-]+) into an organization/,
     "Your next charge will be on date": /Your next charge will be on (\d{4}-\d{2}-\d{2})./
   }
@@ -69,8 +70,7 @@ async function main() {
     if (location.host === 'gist.github.com') return 'gist'
 
     let pathname = location.pathname
-    if (pathname === '/' || /dashboard/.test(pathname)) return 'dashboard'
-      'organizations/fe13/repositories/new'
+    if (pathname === '/' || /dashboard$/.test(pathname)) return 'dashboard'
     if (pathname === '/trending') return 'trending'
     if (pathname === '/new' || pathname.endsWith('repositories/new')) return 'new'
     if (/^\/watching/.test(pathname)) return 'watching'
