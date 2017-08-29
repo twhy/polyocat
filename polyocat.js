@@ -8,6 +8,7 @@ async function main() {
     "N files": /^([\d,]+) files?$/,
     "N forks": /^([\d,]+) forks?$/,
     "N stars": /^([\d,]+) stars?$/,
+    "N labels": /^([\d,]+) labels?$/,
     "N comments": /^([\d,]+) comments?$/,
     "N remaining": /^([\d,]+) remaining$/,
     "N languages": /^([\d,]+) languages?$/,

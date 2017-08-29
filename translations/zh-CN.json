@@ -420,6 +420,7 @@
     "Sort": "排序",
     "Author": "作者",
     "Labels": "标签",
+    "New label": "新建标签",
     "Milestones": "里程碑",
 
     "Open issues and pull requests": "打开的问题或拉取请求",
@@ -640,7 +641,6 @@
     "Restrict editing to collaborators only": "只有合作者才可以编辑",
     "Restrict editing to users in teams with push access only": "只有团队中有 push 权限的用户才能编辑",
     "Public wikis will still be readable by everyone.": "公共 wikis 仍可被所有人阅读",
-    "Issues": "问题",
     "GitHub Issues adds lightweight issue tracking tightly integrated with your repository. Add issues to milestones, label issues, and close & reference issues from commit messages.": "为你的仓库量身添加的轻量级的问题跟踪功能。把问题加到里程碑，标记问题，关闭问题或在提交信息中引用问题。",
     "Project boards on GitHub help you organize and prioritize your work. You can create project boards for specific feature work, comprehensive roadmaps, or even release checklists.": "项目板帮助你组织和优先处理工作，你可以为特定功能，全面的路线图甚至发布清单创建项目板。",
 
@@ -1273,6 +1273,7 @@
     "N stars": "$1 个赞",
     "N files": "$1 个文件",
     "N forks": "$1 个派生",
+    "N labels": "$1 个标签",
     "N comments": "$1 条评论",
     "N applications": "$1 个应用",
 
