@@ -1239,7 +1239,23 @@
     "Charge today": "今天付款",
     "Plan duration": "方案时长",
     "Upgrading…": "升级 …",
-    "Connecting to PayPal…": "连接到PayPal …"
+    "Connecting to PayPal…": "连接到PayPal …",
+
+    "Clear": "清除",
+    "clear": "清除",
+    "Close": "关闭",
+    "Delete": "删除",
+    "New milestone": "新建里程碑",
+    "Create a Milestone": "新建里程碑",
+    "Create milestone": "创建里程碑",
+    "Close milestone": "关闭里程碑",
+    "Save changes": "保存更改",
+    "Due date (optional)": "截止日期 (可选)",
+    "You haven’t created any Milestones.": "你尚未创建任何里程碑",
+    "Use Milestones to create collections of Issues and Pull Requests for a particular release or project.": "使用里程碑为特定的发布或项目创建问题和并入请求的集合。",
+    "Create a new milestone to help organize your issues and pull requests. Learn more about": "创建一个新的里程碑以帮助组织你的问题和并入请求。了解更多关于",
+    "milestones and issues": "里程碑和问题"
+
   },
 
   "gist": {
