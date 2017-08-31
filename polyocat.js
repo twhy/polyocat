@@ -28,6 +28,7 @@ async function main() {
     "View USER on GitHub": /View ([\w-]+) on GitHub/,
     "Delete PROJECT_NAME": /Delete (.*)$/,
     "View USER": /View ([\w-]+)$/,
+    "Invite members to ORG": /^Invite members to (.*)$/,
     "Turn USER into an organization": /Turn ([\w-]+) into an organization/,
     "Your next charge will be on date": /Your next charge will be on (\d{4}-\d{2}-\d{2})./
   }

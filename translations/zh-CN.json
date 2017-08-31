@@ -1300,6 +1300,8 @@
     "Joined on Jun 24, 2017": "加入于 $3 年 $1 月 $2 日",
     "Turn USER into an organization": "将 $1 变更为组织",
 
+    "Invite members to ORG": "邀请成员至 $1",
+
     "Delete PROJECT_NAME": "删除 $1",
     "View USER": "查看 $1",
     "View USER on GitHub": "查看 $1 的 Github 主页",
