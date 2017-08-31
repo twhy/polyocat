@@ -104,6 +104,7 @@ async function main() {
     if (
       node.id === 'files' ||
       node.id === 'readme' ||
+      /highlight/.test(node.className) ||
       /octotree_sidebar/.test(node.className) ||
       /personal-access-tokens-group/.test(node.className)
     ) { return }
