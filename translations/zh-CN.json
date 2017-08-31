@@ -361,7 +361,11 @@
     "Organization profile": "组织信息",
     "Organization display name": "组织名称",
     "Email (will be public)": "邮箱 (公开)",
-    "OAuth Apps": "OAuth 应用"
+    "OAuth Apps": "OAuth 应用",
+    "Rename organization": "重命名组织",
+    "Renaming your organization can have": "重命名你的组织会引起",
+    "Delete this organization": "删除此组织",
+    "Once deleted, it will be gone forever. Please be certain.": "一旦删除将永远消失。请三思"
   },
 
   "repository": {
