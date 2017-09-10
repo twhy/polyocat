@@ -1198,7 +1198,7 @@
     "Merge pull request": "合并并入请求",
     "This branch has no conflicts with the base branch": "这个分支与基础分支无冲突",
     "Merging can be performed automatically.": "可以自动合并。",
-    "Pull request successfully merged and closed": "并入请求成功并入和关闭",
+    "Pull request successfully merged and closed": "并入请求成功并已关闭",
     "These branches can be automatically merged.": "这些分支可以自动合并。",
     "The change you just made was written to a new branch named": "你刚做出的修改被写到一个新的分支名为",
     ". Create a pull request below to propose these changes.": "。创建一个并入请求以提出这些修改。",
