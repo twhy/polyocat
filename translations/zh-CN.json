@@ -1182,7 +1182,9 @@
     "Search starred repositories…": "搜索点赞的仓库 …",
 
     "Propose file change": "提出文件更改",
-    "Open a pull request": "发起并入请求",
+    "Open a pull request": "请求并入",
+    "Compare & pull request": "对比 & 请求并入",
+    "Your recently pushed branches:": "你最近推入的分支",
     "Delete branch": "删除分支",
     "Able to merge.": "可以合并",
     "Merged": "已合并",
@@ -1200,7 +1202,8 @@
     "These branches can be automatically merged.": "这些分支可以自动合并。",
     "The change you just made was written to a new branch named": "你刚做出的修改被写到一个新的分支名为",
     ". Create a pull request below to propose these changes.": "。创建一个并入请求以提出这些修改。",
-
+    "Choose two branches to see what’s changed or to start a new pull request. If you need to, you can also": "通过对比两个分支的更改发起并入请求。如果需要，你也可以",
+    
     "Your gists": "你的片段",
     "Starred gists": "点赞片段",
     "Your GitHub profile": "个人主页",
@@ -1298,6 +1301,7 @@
     "/ month": "/ 月",
 
     "N hours ago": "$1 小时前",
+    "N minutes ago": "$1 分钟前",
 
     "month day": "$1 月 $2 日",
     "on month day": "于 $1 月 $2 日",
