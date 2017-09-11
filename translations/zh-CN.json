@@ -1176,6 +1176,7 @@
     "Starred by people you follow": "被你关注的人点赞",
     "These are the organizations and developers building the hot tools today.": "这些是正在构建热门工具的组织和开发者。",
     
+    "Search…": "搜索…",
     "Search": "搜索",
     "Search GitHub": "搜索 GitHub",
     "Search repositories…": "搜索仓库 …",
@@ -1272,7 +1273,25 @@
   },
 
   "gist": {
-    "Starred": "点赞片段"
+    "Download ZIP": "下载 ZIP",
+    "Starred": "点赞片段",
+    "Revisions": "修订",
+    "Raw": "原始",
+    "Code": "代码",
+    "created": "创建",
+    "commented": "评论于",
+    "this gist": "此片段",
+    "Report gist": "举报此片段",
+    "Learn more about clone URLs": "了解更多关于克隆地址的内容",
+    "What would you like to do?": "你希望做什么？",
+    "Embed": "内嵌",
+    "Embed this gist in your website.": "将此片段内嵌到你的网站",
+    "Share": "分享",
+    "Copy sharable URL for this gist.": "复制此片段的网址用以分享",
+    "Clone via HTTPS": "通过 HTTPS 克隆",
+    "Clone with Git or checkout with SVN using the repository's web address.": "使用 Git 克隆或通过 SVN 检出",
+    "Clone via SSH": "通过 SSH 克隆",
+    "Clone with an SSH key and passphrase from your GitHub settings.": "使用你 GitHub 账户设置中的 SSH 密钥克隆。"
   },
 
   "regexp": {
