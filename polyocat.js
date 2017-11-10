@@ -56,7 +56,7 @@ async function main() {
   translate(document.body)
   
   function find(str) {
-    if (page && dict[page][str]) return ` ${dict[page][str]} `
+    if (page && dict[page] && dict[page][str]) return ` ${dict[page][str]} `
     if (dict.global[str]) return ` ${dict.global[str]} `
     for (let key in REGEXP) {
       let reg = REGEXP[key]
